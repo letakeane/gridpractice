@@ -1,11 +1,7 @@
 Final Evaluation: Scrabble
-Student: Brett
+Student: Kyle Misencik
 Instructor: Brenna
-Notes: Solid! Zero hesitation diving into react syntax both constructing components and mapping functions to props and/or state of nested components.
-
-Hesitation on implementing a map function to iterate over an array living in state - but given more time would be fine.
-
-Seems very comfortable with concepts and could run with any redirection immediately.
+Notes:
 
 ### Progression/Completion
 
