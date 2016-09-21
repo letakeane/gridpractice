@@ -1,7 +1,7 @@
 # Final Assessment
 ## Instructor: Bree
 ## Student: Alex
-## Notes: GREAT job on collaboration. I always knew what direction you were headed. Solid working through 
+## Notes: GREAT job on collaboration. I always knew what direction you were headed. Solid steps working through the problem, and I appreciated your ease in handling any little bump in the road.
 
 # Progression/Completion
 
