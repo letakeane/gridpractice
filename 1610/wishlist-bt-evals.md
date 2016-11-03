@@ -35,7 +35,9 @@
 - when asked what was smallest test he could run on the click handler to make sure it was hooked up 
 
 ### Kenia
-- sick, sent home
+- clear she is trying to pull from memorization of watching live code version
+- needed a lot of hints/leading, but could take them well and figure out where she needed to go
+- struggling with fundamentals
 
 ### Stephanie 
 - mumbles outloud rather than communicate direction/thinking
