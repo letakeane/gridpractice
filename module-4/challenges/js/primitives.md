@@ -4,12 +4,12 @@ For example, given an array of Turing students:
 
 ```javascript
 let students = [
-  { name: "Jane", module: "4FE", track: "frontEnd" },
-  { name: "Jane", module: "3FE", track: "frontEnd" },
-  { name: "Jane", module: "3BE", track: "backEnd" },
-  { name: "Jane", module: "4FE", track: "frontEnd" },
-  { name: "Jane", module: "2BE", track: "backEnd" },
-  { name: "Jane", module: "3BE", track: "backEnd" }
+  { name: "Louisa", module: "4FE", track: "frontEnd" },
+  { name: "Nathaniel", module: "3FE", track: "frontEnd" },
+  { name: "Robbie", module: "3BE", track: "backEnd" },
+  { name: "Brenna", module: "4FE", track: "frontEnd" },
+  { name: "Brittany", module: "2BE", track: "backEnd" },
+  { name: "Taylor", module: "3BE", track: "backEnd" }
 ];
 ```
 
@@ -24,14 +24,14 @@ Will return:
 ```javascript
 {
   frontEnd: [
-    { name: "Jane", module: "4FE", track: "frontEnd" },
-    { name: "Jane", module: "3FE", track: "frontEnd" },
-    { name: "Jane", module: "4FE", track: "frontEnd" }
+    { name: "Louisa", module: "4FE", track: "frontEnd" },
+    { name: "Nathaniel", module: "3FE", track: "frontEnd" },
+    { name: "Brenna", module: "4FE", track: "frontEnd" }
   ],
   backEnd: [
-    { name: "Jane", module: "3BE", track: "backEnd" },
-    { name: "Jane", module: "2BE", track: "backEnd" },
-    { name: "Jane", module: "3BE", track: "backEnd" }
+    { name: "Taylor", module: "3BE", track: "backEnd" },
+    { name: "Brittany", module: "2BE", track: "backEnd" },
+    { name: "Robbie", module: "3BE", track: "backEnd" }
   ]
 }
 ```
