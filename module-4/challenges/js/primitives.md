@@ -1,3 +1,7 @@
+# JS Primitives Challenge
+
+## Prompt
+
 Extend the primitive Array data type to allow a `groupBy` method so that when given an array of objects, you can group each array item by a specified property.
 
 For example, given an array of Turing students:
@@ -35,3 +39,21 @@ Will return:
   ]
 }
 ```
+
+## Answer
+
+```js
+Object.defineProperty(Array.prototype, 'groupBy', {
+    value: function(groupMethod) {
+        return this.reduce((groups, n) => {
+            let key = n[groupMethod];
+            (groups[key] = groups[key] || []).push(n); 
+            return groups;
+        }, {});
+    }
+});
+```
+
+### Explanation
+
+...wait for it...
