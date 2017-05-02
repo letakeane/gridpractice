@@ -64,7 +64,8 @@ In your devtools console, walk through the following example:
 
 ```js
 let stringOne = 'hello world';
-console.log(typeof stringOne) // logs "string"
+typeof stringOne // logs "string"
+stringOne // logs "hello world"
 
 stringOne.toUpperCase(); // logs "HELLO WORLD"
 stringOne.__proto__; // shows you all the methods that exist on the native JavaScript string objects
