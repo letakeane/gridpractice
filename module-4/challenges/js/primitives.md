@@ -1,8 +1,8 @@
-# JS Primitives Challenge
+# JS Native Data Types Challenge
 
 ## Prompt
 
-Extend the primitive Array data type to allow a `groupBy` method so that when given an array of objects, you can group each array item by a specified property.
+Extend the native Array data type to allow a `groupBy` method so that when given an array of objects, you can group each array item by a specified property.
 
 For example, given an array of Turing students:
 
