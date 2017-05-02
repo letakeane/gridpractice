@@ -58,7 +58,7 @@ Object.defineProperty(Array.prototype, 'groupBy', {
 
 #### Everything in JavaScript is an object
 
-The reason we are able to add a new method to an array in JavaScript is because an Array is actually an object. As is a String, an Integer, an Object, a Promise, etc. All data types in JavaScript are objects because this allows us to act on them.
+The reason we are able to add a new method to an array in JavaScript is because an Array is actually an object. As is a String, an Integer, an Object, a Promise, etc. Data types in JavaScript are objects so that we can act on them.
 
 In your devtools console, walk through the following example:
 
@@ -87,6 +87,6 @@ We want to use [Object.defineProperty](https://developer.mozilla.org/en-US/docs/
 ...explain the array.reduce method and how it works for our use-case
 
 
-#### Why You Should Never Do This
+#### Why You Should Never Do This But We Made You Anyway
 
-You never actually want to override or update the prototype of a native JavaScript data type. This is considered bad practice because you could potentially break existing functionality or have inconsistent behavior between browsers. Leave native JavaScript alone...but know how it works ;) 
+You never actually want to override or update the prototype of a native JavaScript data type. This is considered bad practice because you could potentially break existing functionality or have inconsistent behavior between browsers. Leave native JavaScript alone...but know how it works behind the scenes ;) 
