@@ -83,10 +83,32 @@ We want to use [Object.defineProperty](https://developer.mozilla.org/en-US/docs/
 
 
 
-#### Reduce
+#### Method Functionality
 
-...explain the array.reduce method and how it works for our use-case
+Let's look at how our `groupBy` method actually works. Methods are simply functions that exist on an object. First we need to remember what we're passing in when we call our `groupBy` method:
 
+```js
+students.groupBy('track');
+```
+
+'track' represents the property on each of the objects in our students array that we want to group by. We are referencing this with the argument `groupMethod` in our function.
+
+Our `this` context within our method represents our students array. We want to use the [reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce?v=example) method on our array so we can return a grouped object of frontend vs. backend students.
+
+Examine the arguments that the array [reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce?v=example) method takes. In our example, what do `groups`, and `n` stand for?
+
+**groups:** The object we are currently building up with each iteration over the `students` array and will ultimately return
+**n:** A single student from the array
+
+Given these two values, we can group our students with the following code:
+
+```js
+  let key = n[groupMethod];
+  // will either equal frontend or backend based on the value of the current student 'n'
+
+  (groups[key] = groups[key] || []).push(n); 
+  // check if our groups object already has that key (frontend/backend), if not, set it equal to a new array & push our current student into it
+```
 
 #### Why You Should Never Do This But We Made You Anyway
 
