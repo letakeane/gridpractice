@@ -2,11 +2,9 @@
 
 ## Prompt
 
-Using just HTML & CSS, create a button with the following hover effect:
+Using just HTML & CSS, create a button with the following hover effect. Try to use the least amount of HTML elements as possible to complete the challenge.
 
 ![Hover Effect](https://cloud.githubusercontent.com/assets/856935/22663649/9dbd322e-ec6a-11e6-9c86-a70a9eca6560.gif)
-
-Try to use the least amount of HTML elements as possible to complete the challenge.
 
 ## Answer
 
