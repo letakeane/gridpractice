@@ -95,6 +95,9 @@ Using just HTML & CSS, create a button with the following hover effect. Try to u
 
 ### Explanation/Discussion
 
-#### Before & After Selectors
+#### Psuedo Classes and Elements
+[Psuedo elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements) allow you to style a particular portion of an element. The :before and :after syntax here denotes that we want to add a psuedo element to our selector that appears before or after the actual element. They allow you to insert content onto a page with pure CSS rather than needing to place it directly in the DOM with HTML. These are often used in scenarios where you're adding icons to a label or input field; it makes it easier to style with less elements.
+
+Note that you can 'chain' these pseudo selectors as we did with `selector:hover:after`. `:hover` is actually a [pseudo class](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) which is slightly different than a pseudo element. Psuedo classes denote a special **state** of an element.
 
 #### CSS3 Translations & Transitions
