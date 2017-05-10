@@ -100,4 +100,20 @@ Using just HTML & CSS, create a button with the following hover effect. Try to u
 
 Note that you can 'chain' these pseudo selectors as we did with `selector:hover:after`. `:hover` is actually a [pseudo class](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) which is slightly different than a pseudo element. Psuedo classes denote a special **state** of an element.
 
-#### CSS3 Translations & Transitions
+#### CSS3 Transitions & Transforms
+
+It's easy to mix up the purpose of transitions and tranforms in CSS. From [thoughtbot](https://robots.thoughtbot.com/transitions-and-transforms), "Transitions are the grease in the wheel of CSS transforms. Without a transition, an element being transformed would change aburptly from one state to another."
+
+Transitions allow you to control the way a transformation happens. In this example, our transition value:
+
+```css
+transition: all .3s ease-in-out
+```
+
+is saying to use this transition effect for all CSS values that change on this element, make the duration of the transition last .3seconds, and use an `ease-in-out` timing function. Specifically, the different parts of this shorthand are:
+
+```css
+transition: [property] [duration] [timing-function] [delay];
+```  
+
+Our transformation is doing the actual moving of our psuedo elements. It is translating them on the x and y axis a certain amount of pixels when we hover. With transformations you can rotate, move, skew and scale elements.
