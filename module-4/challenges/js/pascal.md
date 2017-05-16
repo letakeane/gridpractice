@@ -1,12 +1,14 @@
 ## Prompt
 
-Read about [Pascal's Triangle](http://en.wikipedia.org/wiki/Pascal's_triangle)
+Read about Pascal's Triangle [here](http://en.wikipedia.org/wiki/Pascal's_triangle)
+
+![Pascal](https://github.com/turingschool/front-end-keys/blob/master/assets/img/module-4/challenges/js/pascal.gif?raw=true)
 
 Write a function that, given a depth (n), returns an array representing Pascal's Triangle to the n-th level.
 
 For example:
 
-pascalsTriangle(4) #=> [1, 1, 1, 1, 2, 1, 1, 3, 3, 1];
+`pascalsTriangle(4) #=> [1, 1, 1, 1, 2, 1, 1, 3, 3, 1];`
 
 ## Answer
 
