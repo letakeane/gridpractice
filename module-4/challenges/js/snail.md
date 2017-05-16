@@ -12,4 +12,4 @@ const arrayMatrix = [
 snail(arrayMatrix) #=> [1, 2, 3, 6, 9, 8, 7, 4, 5]
 ```
 
-![Snail Array]('https://github.com/turingschool/front-end-keys/blob/master/assets/img/module-4/challenges/js/snail.png?raw=true')
+![Snail Array](https://github.com/turingschool/front-end-keys/blob/master/assets/img/module-4/challenges/js/snail.png?raw=true)
