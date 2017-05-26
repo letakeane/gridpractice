@@ -13,25 +13,31 @@ For example:
 ## Answer
 
 ```js
-const pTriangle = (n) => {
-  let pascal = [];
-  let index = 0;
-  
-  // loop through each level of the triangle
-  for (var i = 0; i < n; i++) {
+  const pTriangle = (n) => {
+    let pascal = [];
+    let index = 0;
+    
+    // loop through each level of the triangle
+    for (var i = 0; i < n; i++) {
+      index = pascal.length - i;
 
-    // set the index value to be the current level
-    index = pascal.length - i;
+      // loop through each number in the current level
+      for (var j = 0; j < i + 1; j++) {
 
-    for (var j = 0; j < i+1; j++) {
-      if (j === 0 || j === i) {
-        pascal.push(1);
-      } else {
-        pascal.push(pascal[index + j] + pascal[index + j - 1]);
+        // If we're at the first or last number in the level,
+        // add 1 to the array because the outter numbers are
+        // always 1
+        if (j === 0 || j === i) {
+          pascal.push(1);
+
+        // Otherwise, 
+        } else {
+          let numberToPush = pascal[index + j] + pascal[index + j - 1];
+          pascal.push(numberToPush);
+        }
       }
     }
+    
+    return pascal;
   }
-  
-  return pascal;
-}
 ```
