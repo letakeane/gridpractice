@@ -53,11 +53,11 @@ Another stopping condition of the algorithm is if there is no remainder when div
 
 For example:
 
-252 / 105 #=> remainder of 42
-147 / 105 #=> remainder of 42
-105 / 63  #=> remainder of 42
-63  / 42  #=> remainder of 21
-42  / 21  #=> remainder of 0
+* 252 / 105 #=> remainder of 42
+* 147 / 105 #=> remainder of 42
+* 105 / 63  #=> remainder of 42
+* 63  / 42  #=> remainder of 21
+* 42  / 21  #=> remainder of 0
 
 #### The Remainder Operator
 
