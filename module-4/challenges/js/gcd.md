@@ -59,7 +59,7 @@ For example:
 63  / 42  #=> remainder of 21
 42  / 21  #=> remainder of 0
 
-#### The % Operator
+#### The Remainder Operator
 
 The % operator in JavaScript returns the remainder of dividing `a` by `b`. If `a` is less than `b`, it will simply return `a`. From [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators):
 
