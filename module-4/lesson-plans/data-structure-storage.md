@@ -27,6 +27,8 @@ id | page | publicationId | note
 3  | 75   | 2             | 'Lorem set amet'             |
 
 
+#### Extracted as JSON:
+
 ```js
 // Research Papers
 [{
@@ -133,6 +135,8 @@ authorId | publicationId                        |
   2      |  2   # Brittany wrote Dolor Set Amet |
   3      |  1   # Robbie wrote Lorem Ipsum      |
   
+
+#### Extracted as JSON:
 
 ```js
 // Research Papers
