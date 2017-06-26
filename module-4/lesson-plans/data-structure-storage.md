@@ -2,15 +2,18 @@
 
 ## Data Structure Code Examples
 
+```js
 // One-to-many relationship - Relational Database Setup
 // Requires two separate tables: one for research papers
 // and another for footnotes. Each footnote must contain 
 // a 'publicationId' field to link it to a specific paper
+```
 
-researchPapers: id, title, publicationDate
+researchPapers: id, title, publicationDate  
 footNotes: id, page, note, publicationId
 
 researchPapers:
+
 id | title            | publicationDate
 =========================================
 1  | Lorem Ispum      | 2345635682547
@@ -18,6 +21,7 @@ id | title            | publicationDate
 3  | Consequetar Adip | 5795673456278
  
 footNotes:
+
 id | page | publicationId | note
 ===================================
 1  | 26   | 1             | 'Dolor set amet consequetar'
@@ -118,6 +122,7 @@ authors: id, name
 authorPapers: authorId, publicationId
 
 researchPapers:
+
 id | title            | publicationDate
 =========================================
 1  | Lorem Ispum      | 2345635682547
@@ -125,6 +130,7 @@ id | title            | publicationDate
 3  | Consequetar Adip | 5795673456278
  
 authors:
+
 id | name
 =================
 1  | Bob Loblaw
@@ -132,6 +138,7 @@ id | name
 3  | Robbie
  
 authorPapers:
+
 authorId | publicationId
 ================================================
   1      |  2   # Bob wrote Dolor Set Amet
