@@ -14,19 +14,19 @@
 
 #### researchPapers:
 
-id | title            | publicationDate
-=========================================
-1  | Lorem Ispum      | 2345635682547
-2  | Dolor Set Amet   | 3568356245622
-3  | Consequetar Adip | 5795673456278
+id | title            | publicationDate |
+---|------------------|-----------------|
+1  | Lorem Ispum      | 2345635682547   |
+2  | Dolor Set Amet   | 3568356245622   |
+3  | Consequetar Adip | 5795673456278   |
  
 #### footNotes:
 
 id | page | publicationId | note
-===================================
-1  | 26   | 1             | 'Dolor set amet consequetar'
-2  | 362  | 1             | 'Consequetar adipscing'
-3  | 75   | 2             | 'Lorem set amet'
+---|------|---------------|------------------------------|
+1  | 26   | 1             | 'Dolor set amet consequetar' |
+2  | 362  | 1             | 'Consequetar adipscing'      |
+3  | 75   | 2             | 'Lorem set amet'             |
 
 
 
@@ -123,28 +123,28 @@ id | page | publicationId | note
 
 #### researchPapers:
 
-id | title            | publicationDate
-=========================================
-1  | Lorem Ispum      | 2345635682547
-2  | Dolor Set Amet   | 3568356245622
-3  | Consequetar Adip | 5795673456278
+id | title            | publicationDate |
+---|------------------|-----------------|
+1  | Lorem Ispum      | 2345635682547   |
+2  | Dolor Set Amet   | 3568356245622   |
+3  | Consequetar Adip | 5795673456278   |
  
 #### authors:
 
-id | name
-=================
-1  | Bob Loblaw
-2  | Brittany
-3  | Robbie
+id | name       |
+---|------------|
+1  | Bob Loblaw |
+2  | Brittany   |
+3  | Robbie     |
  
 #### authorPapers:
 
-authorId | publicationId
-================================================
-  1      |  2   # Bob wrote Dolor Set Amet
-  1      |  3   # Bob wrote Consequetar Adip
-  2      |  2   # Brittany wrote Dolor Set Amet
-  3      |  1   # Robbie wrote Lorem Ipsum
+authorId | publicationId                        |
+---------|--------------------------------------|
+  1      |  2   # Bob wrote Dolor Set Amet      |
+  1      |  3   # Bob wrote Consequetar Adip    |
+  2      |  2   # Brittany wrote Dolor Set Amet |
+  3      |  1   # Robbie wrote Lorem Ipsum      |
   
 
 
