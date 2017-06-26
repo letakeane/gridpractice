@@ -9,10 +9,10 @@
 // a 'publicationId' field to link it to a specific paper
 ```
 
-researchPapers: id, title, publicationDate  
-footNotes: id, page, note, publicationId
+**researchPapers:** id, title, publicationDate  
+**footNotes:** id, page, note, publicationId  
 
-researchPapers:
+#### researchPapers:
 
 id | title            | publicationDate
 =========================================
@@ -20,7 +20,7 @@ id | title            | publicationDate
 2  | Dolor Set Amet   | 3568356245622
 3  | Consequetar Adip | 5795673456278
  
-footNotes:
+#### footNotes:
 
 id | page | publicationId | note
 ===================================
@@ -117,11 +117,11 @@ id | page | publicationId | note
 // Requires a junction table for each relationship
 
 
-researchPapers: id, title, publicationDate, content, footnotes
-authors: id, name
-authorPapers: authorId, publicationId
+**researchPapers:** id, title, publicationDate, content, footnotes
+**authors:** id, name
+**authorPapers:** authorId, publicationId
 
-researchPapers:
+#### researchPapers:
 
 id | title            | publicationDate
 =========================================
@@ -129,7 +129,7 @@ id | title            | publicationDate
 2  | Dolor Set Amet   | 3568356245622
 3  | Consequetar Adip | 5795673456278
  
-authors:
+#### authors:
 
 id | name
 =================
@@ -137,7 +137,7 @@ id | name
 2  | Brittany
 3  | Robbie
  
-authorPapers:
+#### authorPapers:
 
 authorId | publicationId
 ================================================
