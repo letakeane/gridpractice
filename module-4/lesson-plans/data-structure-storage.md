@@ -2,15 +2,13 @@
 
 ## Data Structure Code Examples
 
+### One-To-Many: Relational Database
 ```js
 // One-to-many relationship - Relational Database Setup
 // Requires two separate tables: one for research papers
 // and another for footnotes. Each footnote must contain 
 // a 'publicationId' field to link it to a specific paper
 ```
-
-**researchPapers:** id, title, publicationDate  
-**footNotes:** id, page, note, publicationId  
 
 #### researchPapers:
 
@@ -27,13 +25,6 @@ id | page | publicationId | note
 1  | 26   | 1             | 'Dolor set amet consequetar' |
 2  | 362  | 1             | 'Consequetar adipscing'      |
 3  | 75   | 2             | 'Lorem set amet'             |
-
-
-
-
-
-
-
 
 
 ```js
@@ -65,12 +56,9 @@ id | page | publicationId | note
 }];
 ```
 
+-------------------------------------
 
-
-
-
-
-
+### One-To-Many: Non-Relational Database
 
 ```js
 // One-to-many relationship - Non-Relational Database Setup
@@ -113,13 +101,12 @@ id | page | publicationId | note
 
 
 
+### Many-To-Many: Relational Database
+
+```js
 // Many-to-many - Relational Database Setup
 // Requires a junction table for each relationship
-
-
-**researchPapers:** id, title, publicationDate, content, footnotes
-**authors:** id, name
-**authorPapers:** authorId, publicationId
+```
 
 #### researchPapers:
 
@@ -146,8 +133,6 @@ authorId | publicationId                        |
   2      |  2   # Brittany wrote Dolor Set Amet |
   3      |  1   # Robbie wrote Lorem Ipsum      |
   
-
-
 
 ```js
 // Research Papers
@@ -181,11 +166,7 @@ authorId | publicationId                        |
 ```
 
 
-
-
-
-
-
+### Many-To-Many: Non-Relational Database
 
 ```js
 // Many-to-many - Non-Relational Database Setup
