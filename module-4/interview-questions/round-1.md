@@ -16,6 +16,10 @@
 
 **Difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`? [js]**
 
+* `function Person(){}` is a **function declaration**. It declares, but does not execute, the function.
+* `var person = Person()` is a **function expression**. A variable `person` has been defined and contains a reference to a Person function.
+* `var person = new Person()` is a **function constructor**. By adding the `new` keyword, we are instantiating a new object from the Person class constructor.
+
 **What is the difference between `==` and `===`? [-hint-](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness) [js]**
 
 **In as much detail as possible, explain what a database migration does.**
