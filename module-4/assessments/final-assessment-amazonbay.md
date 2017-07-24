@@ -61,7 +61,7 @@ Your app should be pushed to production on Heroku.
 
 ## Wireframes
 
-Here are some basic wireframes for AmazonBay. Keep the intent of the wireframes, but the wireframes should not be used for styling (why would you style your app like this anyway??).
+Here are some basic wireframes for AmazonBay to get you going on your layout. Keep the intent of the wireframes, but the wireframes should not be used literally for styling.
 
 [Main Application Page](http://imgur.com/Q37NOga)
 
