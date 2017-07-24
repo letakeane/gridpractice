@@ -63,9 +63,7 @@ Your app should be pushed to production on Heroku.
 
 Here are some basic wireframes for AmazonBay. Keep the intent of the wireframes, but the wireframes should not be used for styling (why would you style your app like this anyway??).
 
-![Main Application Page](http://imgur.com/4ByuDdS)
-
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/IVrEP"><a href="//imgur.com/IVrEP">Main Application Page</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+[Imgur](http://i.imgur.com/4ByuDdS.png)
 
 ## Rubric
 
