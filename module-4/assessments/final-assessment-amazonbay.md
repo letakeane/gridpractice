@@ -63,7 +63,11 @@ Your app should be pushed to production on Heroku.
 
 Here are some basic wireframes for AmazonBay. Keep the intent of the wireframes, but the wireframes should not be used for styling (why would you style your app like this anyway??).
 
-[Imgur](http://i.imgur.com/4ByuDdS.png)
+[Main Application Page](http://imgur.com/Q37NOga)
+
+[Cart Slider Pane](http://imgur.com/vPM7lU7)
+
+[Order History Slider Pane](http://imgur.com/XUOFOeM)
 
 ## Rubric
 
