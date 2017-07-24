@@ -27,7 +27,7 @@ Assume there is an unlimited mount of things!
 
 ### Shopping Cart
 
-On the right side of the app, there should be a sidebar labeled *Cart*. When you click a button on this sidebar, the Cart pane should _slide to the left_ and show the items in the cart.
+On the right side of the app, there should be a sidebar labeled **Cart**. When you click a button on this sidebar, the Cart pane should _slide to the left_ and show the items in the cart.
 
 The cart should show:
 
@@ -41,7 +41,7 @@ The items in the cart should persist on refresh using `localStorage`.
 
 ### Order History
 
-On the left side of the app, there should be a sidebar labeled *Order History*. When you click a button on this sidebar, the Order History pane should _slide to the right_ and show the order history.
+On the left side of the app, there should be a sidebar labeled **Order History**. When you click a button on this sidebar, the Order History pane should _slide to the right_ and show the order history.
 
 After someone purchases the items in their cart, the order should appear in the Order History. The order history should show:
 
@@ -56,8 +56,8 @@ Your app should be pushed to production on Heroku.
 
 ### Extensions
 
-- *10 points:* True persistence using knex/PostgreSQL instead of `app.locals`
-- *10 points:* Client side testing of the whole purchase and checkout process
+- **10 points:** True persistence using knex/PostgreSQL instead of `app.locals`
+- **10 points:** Client side testing of the whole purchase and checkout process
 
 ## Wireframes
 
