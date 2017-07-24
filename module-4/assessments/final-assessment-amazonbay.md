@@ -16,7 +16,7 @@ The main page should display the inventory of the site. It should be a card UI w
 - Item price
 - A button to add the item to the cart
 
-The inventory should be stored in the backend database using _either_ `app.locals` or a knex/PostgreSQL database. You model for inventory items should be:
+The inventory should be stored in the backend database using _either_ `app.locals` or a knex/PostgreSQL database. Your model for inventory items should be:
 
 - title
 - description
