@@ -18,12 +18,14 @@ The main page should display the inventory of the site. It should be a card UI w
 
 The inventory should be stored in the backend database using _either_ `app.locals` or a knex/PostgreSQL database. Your model for inventory items should be:
 
-- title
-- description
-- image (you can store a link to an image if you would like)
-- price
+- Title
+- Description
+- Image (you can store a link to an image if you would like)
+- Price
+  - Price should be stored in `app.locals` or a knex/PostgreSQL database using cents as an `integer` type (100), or in dollars using a `decimal` type (1.00)
+  - When displaying the price in the app, it should be shown as `$1.00`
 
-Assume there is an unlimited mount of things!
+Assume there is an unlimited amount of things!
 
 ### Shopping Cart
 
@@ -37,7 +39,7 @@ The cart should show:
 - A button to purchase all of the items in the cart
   - When you click the button, the order should be processed immediately and a new order should appear in the Order History
 
-The items in the cart should persist on refresh using `localStorage`.
+Assume you can only purchase one of each thing at a time. The items in the cart should persist on page refresh using `localStorage`.
 
 ### Order History
 
@@ -45,14 +47,14 @@ On the left side of the app, there should be a sidebar labeled **Order History**
 
 After someone purchases the items in their cart, the order should appear in the Order History. The order history should show:
 
-- What was purchased in each order
+- The date each order was made
 - The total price for each order
 
-The order history should persist on refresh using your backend database. This database can be _either_ `app.locals` or a knex/PostgreSQL database.
+The order history should persist on page refresh using your backend database. This database can be _either_ `app.locals` or a knex/PostgreSQL database.
 
 ### Production
 
-Your app should be pushed to production on Heroku. 
+Your app should be pushed to production on Heroku.
 
 ### Extensions
 
@@ -63,11 +65,11 @@ Your app should be pushed to production on Heroku.
 
 Here are some basic wireframes for AmazonBay to get you going on your layout. Keep the intent of the wireframes, but the wireframes should not be used literally for styling.
 
-[Main Application Page](http://imgur.com/Q37NOga)
+[Main Application Page](http://imgur.com/IKkmoMr)
 
-[Cart Slider Pane](http://imgur.com/vPM7lU7)
+[Cart Slider Pane](http://imgur.com/DS8uMRw)
 
-[Order History Slider Pane](http://imgur.com/XUOFOeM)
+[Order History Slider Pane](http://imgur.com/TwDnvcN)
 
 ## Rubric
 
