@@ -52,6 +52,11 @@ After someone purchases the items in their cart, the order should appear in the 
 
 The order history should persist on page refresh using your backend database. This database can be _either_ `app.locals` or a knex/PostgreSQL database.
 
+The data model for an order should be:
+
+- Total price
+- Date of order
+
 ### Production
 
 Your app should be pushed to production on Heroku.
