@@ -59,7 +59,7 @@ The data model for an order should be:
 
 ### Production
 
-Your app should be pushed to production on Heroku.
+**Your app should be pushed to production on Heroku.** You do not need to incorporate CircleCI for this assessment.
 
 ### Extensions
 
