@@ -4,7 +4,7 @@
 
 Create an image slider (aka carousel) with HTML, CSS and jQuery that behaves like this:
 
-![Carousel](http://imgur.com/a/9SIqF)
+![Carousel](https://github.com/turingschool/front-end-keys/blob/master/assets/img/module-4/challenges/js/carousel.gif?raw=true)
 
 ### Base Expectations:
 
@@ -52,3 +52,4 @@ And some boilerplate HTML:
 ## Solution
 
 [General Strategy](https://stackoverflow.com/questions/15876754/infinity-loop-slider-concepts)
+[Detecting when CSS transitions are complete](https://davidwalsh.name/css-animation-callback)
