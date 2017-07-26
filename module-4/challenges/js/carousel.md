@@ -6,13 +6,15 @@ Create an image slider (aka carousel) with HTML, CSS and jQuery that behaves lik
 
 ![Carousel](https://github.com/turingschool/front-end-keys/blob/master/assets/img/module-4/challenges/js/carousel.gif?raw=true)
 
-### Base Expectations:
+### Phase I:
 
 * **When clicking the right arrow:** the current image should slide out to the left, and the next image should slide in from the right
 * **When clicking the left arrow:** the current image should slide out to the right, and the previous image should slide in from the left
-* Try using only CSS for the slide animation; use jQuery for click handling and current slide detection
+* When I reach the end of the slide show, hide the right arrow
+* When I reach the beginning of the slide show, hide the left arrow
+* Try using only CSS3 for the slide animation; use jQuery for the click handling and current slide detection
 
-### Extensions:
+### Phase II:
 
 * Images should slide in an infinite loop
 * Images should automatically slide every 5 seconds
