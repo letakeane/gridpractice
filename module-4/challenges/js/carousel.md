@@ -9,6 +9,7 @@ Create an image slider (aka carousel) with HTML, CSS and jQuery that behaves lik
 ### Base Expectations:
 
 * When clicking the right arrow, the current image should slide out to the left, and the next image should slide in from the right
+* Try using only CSS for the slide animation; use jQuery for click handling and current slide detection
 
 ### Extensions:
 
