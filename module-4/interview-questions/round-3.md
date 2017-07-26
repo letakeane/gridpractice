@@ -4,9 +4,10 @@
 
 **Describe the difference between progressive enhancement and graceful degradation.**
 
+
 **Describe CSS Floats and how they work.**
 
-CSS floats are a positioning property that allows you to do things like wrap text around an image. The floated element (in this case, an image) still remains a part of the flow of the document (which means it has an effect on the position of the elements that surround it). They were often over-used for general layout purposes but are being seen less frequently with the addition of flex-box and CSS grid.
+* CSS floats are a positioning property that allows you to do things like wrap text around an image. The floated element (in this case, an image) still remains a part of the flow of the document (which means it has an effect on the position of the elements that surround it). They were often over-used for general layout purposes but are being seen less frequently with the addition of flex-box and CSS grid.
 
 **What's the difference between a relative, fixed, absolute and statically positioned element?**
 
@@ -20,6 +21,8 @@ CSS floats are a positioning property that allows you to do things like wrap tex
 Event delegation utilizes the event bubbling or event propogation effect and allows you to add an event listener to a parent node in the DOM and have the event caught at the parent level as the event bubbles up the tree to find a handler. This is useful when you have elements that are frequently added or removed from the DOM (like list elements), putting a listener on the parent `ul` instead will keep that event listener in tact even if your child elements are consistently added and removed. See [David Walsh's Explanation](https://davidwalsh.name/event-delegate)
 
 **What kind of information might you store in an environment variable? Why?**
+
+Any information that might need to change between environments, such as a database connection URL or file. Often times, sensitive data like API keys are hidden in environment variables so that they're not exposed by committing them to github.
 
 **What is an API?**
 
