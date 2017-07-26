@@ -53,4 +53,4 @@ And some boilerplate HTML:
 ## Solution
 
 * [General Strategy](https://stackoverflow.com/questions/15876754/infinity-loop-slider-concepts)
-* [Detecting when CSS transitions are complete](https://davidwalsh.name/css-animation-callback)
+* [Detecting when CSS animations are complete](http://blog.teamtreehouse.com/using-jquery-to-detect-when-css3-animations-and-transitions-end)
