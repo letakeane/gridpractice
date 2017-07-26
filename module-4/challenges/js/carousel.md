@@ -8,7 +8,8 @@ Create an image slider (aka carousel) with HTML, CSS and jQuery that behaves lik
 
 ### Base Expectations:
 
-* When clicking the right arrow, the current image should slide out to the left, and the next image should slide in from the right
+* **When clicking the right arrow:** the current image should slide out to the left, and the next image should slide in from the right
+* **When clicking the left arrow:** the current image should slide out to the right, and the previous image should slide in from the left
 * Try using only CSS for the slide animation; use jQuery for click handling and current slide detection
 
 ### Extensions:
@@ -51,5 +52,5 @@ And some boilerplate HTML:
 
 ## Solution
 
-[General Strategy](https://stackoverflow.com/questions/15876754/infinity-loop-slider-concepts)
-[Detecting when CSS transitions are complete](https://davidwalsh.name/css-animation-callback)
+* [General Strategy](https://stackoverflow.com/questions/15876754/infinity-loop-slider-concepts)
+* [Detecting when CSS transitions are complete](https://davidwalsh.name/css-animation-callback)
