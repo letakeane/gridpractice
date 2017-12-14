@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Firebase Google Auth</title>
+    <style type="text/css">body,button,html{text-align:center}body,html{margin:50px;font-family:'Helvetica Neue'}button{border:0;background-color:pink;text-transform:uppercase;color:#fff;padding:15px 30px;margin:0 auto}#accountDetails{font-family:'Courier New';border:1px solid #eee;padding:20px;margin:20px auto;overflow-wrap:break-word}</style>
+  </head>
+  <body>
+    <button id="signIn">Sign In</button>
+    <div id="accountDetails"></div>
+
+    <!-- 
+      Add Firebase scripts from the CDN to your page. You will
+      only need the firebase-app.js file & the firebase-auth.js file.
+      HINT: https://firebase.google.com/docs/web/setup
+    -->
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-auth.js"></script>
+
+    <script type="text/javascript">
+
+
+      // Check if there is a currentUser authenticated. If not,
+      // register a new GoogleAuthProvider and trigger a signInWithPopup.
+      // Otherwise, trigger a signOut.
+      // HINT: https://firebase.google.com/docs/auth/web/google-signin
+      function toggleSignIn() {
+        if (!firebase.auth().currentUser) {
+          var provider = new firebase.auth.GoogleAuthProvider();
+          firebase.auth().signInWithPopup(provider).then(function(result) {
+            console.log(result);
+          }).catch(function(error) {
+            console.error(error);
+          });
+        } else {
+          firebase.auth().signOut();
+        }
+      }
+
+
+      function initApp() {
+        // Add your application configuration. You will need your app's
+        // apiKey and authDomain.
+        // HINT: The configuration values for your app can be found on the 
+        // authentication page in the top right corner when you click 'WEB SETUP'
+        var config = {
+          apiKey: "YOUR API KEY",
+          authDomain: "YOUR AUTH DOMAIN",
+        };
+        firebase.initializeApp(config);
+
+
+        // Listen for changes in authentication state through firebase.
+        // If there is a user, update the button text to say 'Sign Out', and update
+        // the accountDetails div to display JSON.stringify(user)
+        // If there is NOT a user, update the button text to say 'Sign In', and update
+        // the accountDetails div to display an empty string
+        // HINT: https://firebase.google.com/docs/auth/web/manage-users
+        firebase.auth().onAuthStateChanged(function(user) {
+          if (user) {
+            document.getElementById('signIn').textContent = 'Sign Out';
+            document.getElementById('accountDetails').textContent = JSON.stringify(user);
+          } else {
+            document.getElementById('signIn').textContent = 'Sign In';
+            document.getElementById('accountDetails').textContent = 'Logged out - No user data to display';
+          }
+        });
+
+        // Add click handler for sign in/sign out button
+        document.getElementById('signIn').addEventListener('click', toggleSignIn, false);
+      }
+
+      window.onload = function() {
+        initApp();
+      };
+
+
+    </script>
+  </body>
+</html>
