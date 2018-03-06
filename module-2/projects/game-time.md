@@ -2,6 +2,21 @@
 
 The project spec and rubric can be found [here](http://frontend.turing.io/projects/game-time.html).
 
+## Project takeaways
+
+The goal of GameTime is to furnish students with an understanding of OOP.
+
+They should develop a familiarity with the following technical skills:
+* ES6 classes
+* class inheritance
+* SRP (single responsibility principle)
+* testing
+
+and the following non-technical skills:
+* understanding the concept of MVP
+* improving pair workflow
+* articulating code 
+
 ## Example Repos of Students Past
 
 These are two high-quality examples of the Game Time project from past students:
@@ -67,4 +82,4 @@ These are two high-quality examples of the Game Time project from past students:
     * Depending on the scale of the refactor needed, you can set the deadline to the end of the day or the end of the week.
     * Be clear about the value/utility of doing the refactor
 * Summarize any refactors needing to be done
-* Point out strengths of the code - end on a positive note 
+* Point out strengths of the code - end on a positive note
