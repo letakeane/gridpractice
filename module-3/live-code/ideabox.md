@@ -4,7 +4,7 @@
 
 Here is a mock-up of what we want our application to look like... SUPER FANCY!
 
-![ideabox mock-up](/Users/christie/Desktop/Screen Shot 2018-03-06 at 2.20.43 PM.png)
+![ideabox mock-up](assets/ideabox-spec.png)
 
 Looking at this, take a minute to turn and talk to your neighbor about what components you think we might need. What components will need to have state and which ones won't?
 
@@ -20,7 +20,7 @@ Next, let's spin up a new application using create-react-app.
 
 And there we have it, MAGIC! Let's take a look at the information given to us...
 
-![](/Users/christie/Desktop/Screen Shot 2018-03-05 at 9.54.43 PM.png)
+![](assets/create-react-app.png)
 
 We need to navigate to our project `cd ideabox`, and we can then start the development server by running `npm start` .
 
@@ -32,7 +32,7 @@ Next, let's go into `index.js` and delete lines 5 and 8 that import and use the 
 
 Now, let's take a look at `App.js`. We can delete line 2 that is importing the React Logo as well as the everything inside the `return` statement. We can also delete everything inside the `App.css` file.
 
-## CREATING A CONTROLLED FORM 
+## CREATING A CONTROLLED FORM
 
 The first component I want to build out is my IdeaForm that has a title input, a body input, and a submit button. Cool... let's create a new file called `IdeaForm.js`. Now let's think, will our IdeaForm need to have state? It needs to keep track of the title and body that the user inputs, so I think it will. We will also need a method to handle the input change and update our state.
 
@@ -49,12 +49,12 @@ class IdeaForm extends Component {
 	  body: ''
 	 }
 	}
-	
+
 	handleInputChange = (e) => {
      const { name, value } = e.target
      this.setState({ [name]: value })
    }
-   
+
 	render() {
 	  return(
 		<form>
@@ -67,7 +67,7 @@ class IdeaForm extends Component {
 		  />
 		  <input
 		    type='text'
-		    placeholder='body' 
+		    placeholder='body'
 		    name='body'
 		    value={this.state.body}
 		    onChange={this.handleInputChange}
@@ -80,11 +80,11 @@ class IdeaForm extends Component {
 
 export default IdeaForm;
 ```
-Sweet... our IdeaForm is looking pretty good. Now we need to think about submitting the idea. Turn and talk to your neighbor... Where does that functionality need to live? And where should all of our ideas live collectively? 
+Sweet... our IdeaForm is looking pretty good. Now we need to think about submitting the idea. Turn and talk to your neighbor... Where does that functionality need to live? And where should all of our ideas live collectively?
 
 ## SUBMITTING AND STORING IDEAS
 
-I'm thinking we want to store all of our ideas in our App component's state. We will also need to create an addIdea function in App that we can pass down as props to our IdeaForm. This function should take in a new idea and create a new copy of state. 
+I'm thinking we want to store all of our ideas in our App component's state. We will also need to create an addIdea function in App that we can pass down as props to our IdeaForm. This function should take in a new idea and create a new copy of state.
 
 ```
 import React, { Component } from 'react';
@@ -131,7 +131,7 @@ submitIdea = (e) => {
 }
 ```
 
-At this point, our idea object functions just fine with just what's being kept in state. However, our ideas will probbaly need an id in the future (in the event we want to delete an idea), so I went ahead and added that property to our idea object. We can accomplish this by using `Object.assign` or by taking advantage of the cool `...spread operator`. 
+At this point, our idea object functions just fine with just what's being kept in state. However, our ideas will probbaly need an id in the future (in the event we want to delete an idea), so I went ahead and added that property to our idea object. We can accomplish this by using `Object.assign` or by taking advantage of the cool `...spread operator`.
 
 ## DISPLAY IDEAS ON THE PAGE
 
@@ -210,9 +210,3 @@ deleteIdea = (id) => {
 ```
 
 ** Don't forget to pass this function down to the idea card **
-
-
-
-
-
-
