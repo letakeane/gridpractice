@@ -4,7 +4,7 @@
 
 Here is a mock-up of what we want our application to look like... SUPER FANCY!
 
-![ideabox mock-up](live-code/ideabox/assets/ideabox-spec.png)
+![ideabox mock-up](./assets/ideabox-spec.png)
 
 Looking at this, take a minute to turn and talk to your neighbor about what components you think we might need. What components will need to have state and which ones won't?
 
@@ -20,7 +20,7 @@ Next, let's spin up a new application using create-react-app.
 
 And there we have it, MAGIC! Let's take a look at the information given to us...
 
-![create-react-app](live-code/ideabox/assets/create-react-app.png)
+![create-react-app](./assets/create-react-app.png)
 
 We need to navigate to our project `cd ideabox`, and we can then start the development server by running `npm start` .
 
