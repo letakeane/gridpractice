@@ -51,31 +51,31 @@ class IdeaForm extends Component {
 	}
 
 	handleInputChange = (e) => {
-     const { name, value } = e.target
-     this.setState({ [name]: value })
-   }
+    const { name, value } = e.target
+    this.setState({ [name]: value })
+  }
 
 	render() {
 	  return(
-		<form>
-		  <input
-		    type='text'
-		    placeholder='title'
-		    name='title'
-		    value={this.state.title}
-		    onChange={this.handleInputChange}
-		  />
-		  <input
-		    type='text'
-		    placeholder='body'
-		    name='body'
-		    value={this.state.body}
-		    onChange={this.handleInputChange}
-		  />
-		  <button>Submit</button>
-		</form>
+  		<form>
+  		  <input
+  		    type='text'
+  		    placeholder='title'
+  		    name='title'
+  		    value={this.state.title}
+  		    onChange={this.handleInputChange}
+  		  />
+  		  <input
+  		    type='text'
+  		    placeholder='body'
+  		    name='body'
+  		    value={this.state.body}
+  		    onChange={this.handleInputChange}
+  		  />
+  		  <button>Submit</button>
+  		</form>
 	  )
-   }
+  }
 }
 
 export default IdeaForm;
