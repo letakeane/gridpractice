@@ -44,6 +44,43 @@ const mergeObjects = (obj1, obj2) => {
 
 mergeObjects(basketOfFruit1, basketOfFruit2)
 ```
+
+```
+// Solution for n case
+
+const basketOfFruit1 = {
+                  orange: 2,   grape: 3, avocado: NaN,
+                  banana: 20, apple: 2
+                }
+
+const basketOfFruit2 = {
+                  grape: 2, avocado: 3, banana: 2,
+                  pear: 1, apple: { fiji: 2, someOtherApple: 4 }
+                }
+
+const basketOfFruit3 = { grape: 5 }
+
+const fruitBaskets = [basketOfFruit1, basketOfFruit2, basketOfFruit3]
+
+const getKeys = (...fruitBaskets) => (
+  Object.keys(Object.assign({}, ...fruitBaskets))
+)
+
+const clean = (fruit) => (
+  typeof(fruit) === 'object' ?
+    Object.values(fruit).reduce((sum, num) => sum + num, 0) :
+    fruit || 0
+)
+
+const fruitKeys = getKeys(basketOfFruit1, basketOfFruit2)
+
+fruitKeys.reduce((combined, fruitKey) => {
+  combined[fruitKey] = fruitBaskets.reduce((sum, basket) => {
+    return sum + clean(basket[fruitKey])
+  }, 0)
+  return combined
+}, {})
+```
                 
                 
  
