@@ -83,3 +83,5 @@ These are two high-quality examples of the Game Time project from past students:
     * Be clear about the value/utility of doing the refactor
 * Summarize any refactors needing to be done
 * Point out strengths of the code - end on a positive note
+
+Convention has been to give the groups their scores during the eval, with applicable areas "PENDING" until the requested refactors are submitted.
