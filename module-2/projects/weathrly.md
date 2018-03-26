@@ -1,0 +1,68 @@
+# Weathrly
+
+The project spec and rubric can be found [here](http://frontend.turing.io/projects/weathrly.html).
+
+## Project takeaways
+
+The goal of Weathrly is to furnish students with an introductory understanding of React and consuming an API.
+
+They should develop a familiarity with the following technical skills:
+* React.js
+* JSX
+* Network requests using the `fetch` API
+* testing React.js with Enzyme and Jest
+
+and the following non-technical skills:
+* refining their understanding of MVP
+* improving pair workflow via code reviews
+* articulating code
+
+## Example Repos of Students Past
+
+These are two high-quality examples of the Weathrly project from past students:
+
+* [Katie Scruggs](https://github.com/katiescruggs/weathrly)
+* [Melena Suliteanu](https://github.com/farmermel/weatherly)
+
+## Evaluations
+
+* Begin by using the app (5 minutes)
+  - Is there a greeting page?
+  - Is autocomplete hooked up?
+  - Does the location persist on refresh?
+  - Can a location be searched by zip code?
+  - What happens when a nonsense location is searched for?
+  - Are there bugs?
+* Look through the code (10 minutes)
+  - App Organization
+    * Are the components logically divided up?
+    * Do the components with state need to have state?
+    * Are the components kept lightweight?
+    * Are the network requests and API key kept in separate files?
+  - JavaScript (JSX) Style
+    * Has the developer made use of ES6 syntax?
+    * Are props being leveraged and passed correctly?
+    * Does the developer leverage conditional rendering?
+    * Does the developer demonstrate an understanding of JSX?
+  - CSS/Sass Style
+    * Are the CSS rules organized in a consistent manner?
+    * Is the CSS repetitive or efficient?
+  - Testing & Sanitation
+    * Is all functionality being tested?
+    * Default state of stateful components?
+    * Methods of components
+    * Everything that updates properties (simulate user interactions, etc)
+    * Is the linter finding any errors?
+  - Workflow
+    * Was a planning tool used? Trello, Waffle, GitHub issues?
+    * Did the developers create wireframes when designing the app?
+    * Do both developers feel they contributed meaningfully to the app?
+  - Identify up to 3 things for the group to refactor
+    * If any categories of the rubric is not passing, you can choose to offer an extension
+    * Add GitHub issues of the suggested/required refactors
+    * Depending on the scale of the refactor needed, you can set the deadline to the end of the day or the end of the week.
+    * Be clear about the value/utility of doing the refactor
+* Summarize any refactors needing to be done
+* Point out strengths of the code - end on a positive note
+
+Convention has been to give the groups their scores during the eval, with applicable areas "PENDING" until the requested refactors are submitted.

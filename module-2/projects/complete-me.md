@@ -14,7 +14,8 @@ They should develop a familiarity with the following technical skills:
 
 and the following non-technical skills:
 * breaking down a complex problem into manageable pieces
-* working with a large group
+* articulating their problem-solving process
+* trying out new problem-solving strategies
 * synthesizing concepts into one's own understanding
 * turning concepts into code
 * articulating code
@@ -33,15 +34,15 @@ The check-ins for Complete Me are informal and function more like pairing sessio
 * Encourage whiteboarding/visualizing the sorting algorithms
 * Encourage good articulation of code with proper vocabulary
 * Demonstrate process of turning high level concepts into code
-* Emphasize algorithmic thinking
+* Emphasize algorithmic thinking over memorization
 
 ## Evaluations
 
 1. Have student whiteboard a trie (**5 minutes**)
-    - **Insert "cat", "cake", "catch", and "cherry"**
+    - **Insert "cake", "cherry", "cakes", "cola", "pie"**
     - Students should talk through the logic step by step
-    - For example, they should say, "To insert 'cat', we'll split cat into an array of characters. The first character is 'c', so we will check the root node to see if it already has a child node of 'c'. It doesn't, so we'll create a new node and add it to our trie."
-    - **Suggest "ca"**
+    - For example, they should say, "To insert 'cake', we'll split cat into an array of characters. The first character is 'c', so we will check the root node to see if it already has a child node of 'c'. It doesn't, so we'll create a new node and add it to our trie."
+    - **Suggest "c"**
     - Students tend to gloss over the functionality of the suggest method; make sure they articulate it with clear, step-by-step language similar to describing the insert method.
 2. Have student run their test suite (**3 minutes**)
     - Tests should cover all functionality (inserting words, populating a dictionary, suggesting words, selecting words & changing the order of suggestions)

@@ -14,9 +14,10 @@ They should develop a familiarity with the following technical skills:
 
 and the following non-technical skills:
 * breaking down a complex problem into manageable pieces
-* working with a large group
+* articulating problem-solving process
+* trying out new problem-solving processes
 * synthesizing concepts into one's own understanding
-* turning concepts into code
+* turning high-level concepts into code
 * articulating code
 
 ## Example Repos of Students Past
@@ -33,7 +34,7 @@ The check-ins for Sorting Suite are informal and function more like pairing sess
 * Encourage whiteboarding/visualizing the sorting algorithms
 * Encourage good articulation of code with proper vocabulary
 * Demonstrate process of turning high level concepts into code
-* Emphasize algorithmic thinking
+* Emphasize algorithmic thinking over memorization
 
 ## Evaluations
 
