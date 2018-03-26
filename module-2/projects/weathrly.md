@@ -24,6 +24,14 @@ These are two high-quality examples of the Weathrly project from past students:
 * [Katie Scruggs](https://github.com/katiescruggs/weathrly)
 * [Melena Suliteanu](https://github.com/farmermel/weatherly)
 
+## Check-in Conversations (optional)
+
+The check-ins for Weathrly are informal and function more like pairing sessions to help get students unstuck.
+* Open ended conversation for student questions
+* Encourage whiteboarding/visualizing React Components
+* Encourage good articulation of code with proper vocabulary
+* Demonstrate process of turning high level concepts into code
+
 ## Evaluations
 
 * Begin by using the app (5 minutes)
