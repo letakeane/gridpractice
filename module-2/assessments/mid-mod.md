@@ -234,14 +234,14 @@ const clouds = {
   },
   cumulus: {
     shape: 'heap',
-    occurrenceLevel: ['being hairy', 'mauling', 'howling in a bloodcurdling manner']
+    occurrenceLevel: ['low', 'middle', 'high']
   }
 };
 
 const cloudSpotting = [
   {
     spotted: 'cirrus',
-    species: 'spissatus',
+    species: 'spissatus'
   },
   {
     spotted: 'cumulus',
@@ -254,6 +254,16 @@ const cloudSpotting = [
 ]
 ```
 
-EXERCISE 1: At what levels can the clouds we spotted occur? Return an array that contains all the possible levels.
+EXERCISE 1: Create an object whose keys are the levels at which the different types of clouds can occur, whose values are arrays containing the strings of the clouds that appear at those levels.
 
-EXERCISE 2: What cloud types weren't spotted? Return an array of the names of the types of clouds we didn't see.
+```
+// {
+//   high: [ 'cirrus', 'cumulonimbus', 'cumulus' ],
+//   low: [ 'cumulonimbus', 'stratus', 'cumulus' ],
+//   middle: [ 'cumulonimbus', 'stratus', 'cumulus' 
+// }
+```
+
+EXERCISE 2: What cloud types didn't we see while cloud spotting? Return an array of the names of the types of clouds we didn't see.
+
+`// [ 'cumulonimubus', 'stratus' ]`
