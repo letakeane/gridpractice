@@ -98,7 +98,7 @@ completion.suggest("piz")
 ```
 
 ## Project submissions
-Repos with completed functionality (all six phases completed) are to be submitted by no later than 9am the following Monday.
+Repos with completed functionality (all five phases completed) are to be submitted by no later than 9am the following Monday.
 
 ## Code review
 1. Look over test suite
