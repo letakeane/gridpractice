@@ -57,24 +57,45 @@ The check-ins for Complete Me are informal and function more like pairing sessio
      - Explain how the `select` method works
        * Autocomplete systems should be intelligent and prioritize words that have been selected before.
       
-       ```
-       import Trie from "./lib/Trie"
+Give this to students:
 
-       const text = "/usr/share/dict/words"
-       const dictionary = fs.readFileSync(text).toString().trim().split('\n')
-       const completion = new Trie()
+## Phase 5
 
-       completion.populate(dictionary)
+The common gripe about autocomplete systems is that they give us
+suggestions that are technically valid but not at all what we wanted.
 
-       completion.suggest("piz")
-        => ["pize", "pizza", "pizzeria", "pizzicato", "pizzle", ...]
+A solution to this problem is to "train" the completion dictionary
+over time based on the user's actual selections. So, if a user
+consistently selects "pizza" in response to completions for "pizz",
+it probably makes sense to recommend that as their first suggestion.
 
-       completion.select("pizzeria")
+Your library should support a `select` method
+which takes a suggested word. You
+will need to record this selection in your trie and use it
+to influence future suggestions.
 
-       completion.suggest("piz")
-        => ["pizzeria", "pize", "pizza", "pizzicato", "pizzle", ...]
-    
-       ```
+Here's what that interaction model should look like:
+
+```
+import Trie from "./lib/Trie"
+
+const text = "/usr/share/dict/words"
+
+const dictionary = fs.readFileSync(text).toString().trim().split('\n')
+
+const completion = new Trie()
+
+completion.populate(dictionary)
+
+completion.suggest("piz")
+=> ["pize", "pizza", "pizzeria", "pizzicato", "pizzle", ...]
+
+completion.select("pizzeria")
+
+completion.suggest("piz")
+=> ["pizzeria", "pize", "pizza", "pizzicato", "pizzle", ...]
+
+```
 
 ## Project submissions
 Repos with completed functionality (all six phases completed) are to be submitted by no later than 9am the following Monday.
