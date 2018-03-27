@@ -52,31 +52,29 @@ The check-ins for Complete Me are informal and function more like pairing sessio
     - Kick off the process by encouraging student to use the trie they just whiteboarded to start understanding how `suggest` would work (what would happen if we ran `suggest('c')`?
     - Give guidance where needed
   4. Have the student attempt to implement `select`.
-    - Encourage pseudo coding
-    - Answer questions but mostly observe process quietly
-    - Explain how the `select` method works
-      * Autocomplete systems should be intelligent and prioritize words that have been selected before.
+     - Encourage pseudo coding
+     - Answer questions but mostly observe process quietly
+     - Explain how the `select` method works
+       * Autocomplete systems should be intelligent and prioritize words that have been selected before.
       
-      ```
-        import Trie from "./lib/Trie"
+       ```
+       import Trie from "./lib/Trie"
 
-        const text = "/usr/share/dict/words"
+       const text = "/usr/share/dict/words"
+       const dictionary = fs.readFileSync(text).toString().trim().split('\n')
+       const completion = new Trie()
 
-        const dictionary = fs.readFileSync(text).toString().trim().split('\n')
+       completion.populate(dictionary)
 
-        const completion = new Trie()
-
-        completion.populate(dictionary)
-
-        completion.suggest("piz")
+       completion.suggest("piz")
         => ["pize", "pizza", "pizzeria", "pizzicato", "pizzle", ...]
 
-        completion.select("pizzeria")
+       completion.select("pizzeria")
 
-        completion.suggest("piz")
+       completion.suggest("piz")
         => ["pizzeria", "pize", "pizza", "pizzicato", "pizzle", ...]
-        
-      ```
+    
+       ```
 
 ## Project submissions
 Repos with completed functionality (all six phases completed are to be submitted by no later than 9am the following Monday.
