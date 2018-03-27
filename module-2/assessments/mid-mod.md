@@ -143,13 +143,13 @@ Given these two classes, create an abstract parent class of `Flower`, and refact
 ```
 // ./Daisy.js
 class Daisy {
-	constructor(color, petals, chained) {
-		this.color = color;
+  constructor(color, petals, chained) {
+    this.color = color;
     this.petals = petals;
-		this.chained = chained;
-	}
+    this.chained = chained;
+  }
 
-	predictLove() {
+  predictLove() {
     return this.petals % 2 != 0 ? 'He loves me' : 'He loves me not';
   }
 
@@ -169,12 +169,12 @@ class Daisy {
 ```
 // ./Rose.js
 class Rose {
-	constructor(color, thorns){
-		this.color = color;
-		this.thorns = thorns;
-	}
+  constructor(color, thorns){
+    this.color = color;
+    this.thorns = thorns;
+  }
 
-	everyRose() {
+  everyRose() {
     return this.thorns ? 'Every rose has its thorns' : 'Not every rose has its thorns';
   }
 
