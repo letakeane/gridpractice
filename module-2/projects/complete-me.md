@@ -42,18 +42,50 @@ The check-ins for Complete Me are informal and function more like pairing sessio
     - **Insert "cake", "cherry", "cakes", "cola", "pie"**
     - Students should talk through the logic step by step
     - For example, they should say, "To insert 'cake', we'll split cat into an array of characters. The first character is 'c', so we will check the root node to see if it already has a child node of 'c'. It doesn't, so we'll create a new node and add it to our trie."
-    - **Suggest "c"**
-    - Students tend to gloss over the functionality of the suggest method; make sure they articulate it with clear, step-by-step language similar to describing the insert method.
-2. Have student run their test suite (**3 minutes**)
+ 2. Have student talk through implementing the suggest method using their whiteboarded trie (**5 minutes**)
+    - Re-emphasize the point of this eval: 
+      * Articulating process
+      * Turning large problems into manageable pieces
+      * Developing a heuristic approach to problem solving
+    - Explain how the `suggest` method works
+      * Takes in a prefix
+      * Returns all words in an array from the trie that begin with the prefix
+    - Kick off the process by encouraging student to use the trie they just whiteboarded to start understanding how `suggest` would work (what would happen if we ran `suggest('c')`?
+    - Give guidance where needed
+ 3. Have student try to implement `suggest` in their code.
+    - Encourage pseudo coding
+    - Answer questions but mostly observe process quietly
+ 4. If the student successfully implements `suggest` with time to spare, have them add `select`.
+    - Explain how the `select` method works
+      * Autocomplete systems should be intelligent and prioritize words that have been selected before.
+      
+      ```
+        import Trie from "./lib/Trie"
+
+        const text = "/usr/share/dict/words"
+
+        const dictionary = fs.readFileSync(text).toString().trim().split('\n')
+
+        const completion = new Trie()
+
+        completion.populate(dictionary)
+
+        completion.suggest("piz")
+        => ["pize", "pizza", "pizzeria", "pizzicato", "pizzle", ...]
+
+        completion.select("pizzeria")
+
+        completion.suggest("piz")
+        => ["pizzeria", "pize", "pizza", "pizzicato", "pizzle", ...]
+        
+      ```
+    
+## Code review
+1. Look over test suite
     - Tests should cover all functionality (inserting words, populating a dictionary, suggesting words, selecting words & changing the order of suggestions)
     - Test should cover sad paths (what happens if we search for a word that does not exist in the trie? what happens if we search for a complete word? what happens if we search for a capitalized word? what happens if we try to insert the same word twice?)
     - Is the test suite robust enough to be used as TDD? If there are obvious gaps in functionality being tested, give half-day extension for student to complete the tests
-3. Have student delete a method (insert or suggest) and reimplement it (**8 minutes**)
-    - If their method uses multiple methods, if the bulk of the functionality is in a separate method, have them rewrite that, too
-    - Student can pseudocode
-4. Look over trie code briefly (**4 minutes**)
+2. Look over trie code
     - Look for redundant code, deeply nested if/else statements
     - Look at logic: what information does the node hold onto? what logic does the trie hold onto?
-5. Let student know that we'll do code reviews to point out opportunities to refactor, etc, and post scores over the weekend
-
-Do code reviews on their repos, to be completed and returned to them by the following Monday.
+    - Look for good use of ES6 syntax
