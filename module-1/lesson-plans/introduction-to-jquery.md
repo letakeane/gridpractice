@@ -4,18 +4,20 @@ Write Learning Goals
 Write JS and JQUERY side by side
 
 ### Learning Goals
-- Learn what jquery is, how it is different from just using js for DOM interaction
-- understand that a jquery object is different from a dom element
-- benefits of using jquery
+- What is jQuery 
+--- how is it different from just using js for DOM interaction
+--- benefits
 --- less code to write
 --- covers edge cases
+- understand some basic differences between jquery object and dom element
 
+Be able to accomplish the following with jQuery
 - Find elements in the DOM
 - Add event listeners
-- Retrieving info from the DOM
-- Adding/removing css classes
-- Traversing the DOM
-- Adding to the DOM
+- Retrieve info from the DOM
+- Add/remove css classes
+- Traverse the DOM
+- Add to the DOM
 
 jquery is a js library that makes dom interaction easier.
 
@@ -54,6 +56,24 @@ What does jquery return?
 good resource on the jquery object http://learn.jquery.com/using-jquery-core/jquery-object/
 
 ## Traversing The Dom
+Whiteboard HTML (use for Selectors and Traversal sections)
+html
+body
+main
+  h3 class="title"
+  p
+  article id="blog-post-1" class="blog-post read"
+    h3
+    p
+    footer
+  article id="blog-post-2" class="blog-post read"
+    h3
+    p
+    footer
+  article id="blog-post-3" class=blog-post
+    h3
+    p
+    footer
 
 ### Selectors (good to mention that this is not just for jquery)
 - basic
@@ -77,24 +97,7 @@ Have people whiteboard the answers before testing in the console
 --- .toggleClass
 
 - filtering/traversal
-Whiteboard HTML (used for examples)
-html
-body
-main
-  h3 class="title"
-  p
-  article id="blog-post-1" class="blog-post read"
-    h3
-    p
-    footer
-  article id="blog-post-2" class="blog-post read"
-    h3
-    p
-    footer
-  article id="blog-post-3" class=blog-post
-    h3
-    p
-    footer
+
 
 --- parent
 --- parents
