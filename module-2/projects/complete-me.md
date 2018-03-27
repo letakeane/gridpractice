@@ -77,7 +77,7 @@ The check-ins for Complete Me are informal and function more like pairing sessio
        ```
 
 ## Project submissions
-Repos with completed functionality (all six phases completed are to be submitted by no later than 9am the following Monday.
+Repos with completed functionality (all six phases completed) are to be submitted by no later than 9am the following Monday.
 
 ## Code review
 1. Look over test suite
