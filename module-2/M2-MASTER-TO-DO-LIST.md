@@ -23,6 +23,12 @@ Formatting:
   * Completed: pending
 * Leta: Update intro to react repo
   * Due: By end of Week 4 of 1803 inning
+  * Completed: pending
+* Leta: Update binary search trie lesson to be focused on process - an instructor roadshow?
+  * Due: By Week 1 of 1804 inning
+  * Completed: pending  
+* Brittany: Update calendar for 1804 inning
+  * Due: By final Friday of 1803 inning
   * Completed: pending 
 
 ### Other
