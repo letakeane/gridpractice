@@ -17,6 +17,12 @@ Formatting:
 
 * Leta: Update Complete Me spec and project guideliness to reflect emphasis on process
   * Due: Wednesday of Week 3
+  * Completed: Wednesday of Week 3
+* Leta: Update config lesson to include babel and babel config for testing
+  * Due: By Week 1 of 1804 inning
   * Completed: pending
+* Leta: Update intro to react repo
+  * Due: By end of Week 4 of 1803 inning
+  * Completed: pending 
 
 ### Other

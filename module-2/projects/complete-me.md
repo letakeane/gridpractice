@@ -45,7 +45,7 @@ The check-ins for Complete Me are informal and function more like pairing sessio
     - **Suggest "c"**
     - Students tend to gloss over the details, but the description of what is happening should be as verbose and detailed as the description of `insert`
  2. Have student talk through implementing the select method using their whiteboarded trie (**5 minutes**)
-    - Re-emphasize the point of this eval: 
+    - Re-emphasize the point of this eval:
       * Articulating process
       * Turning large problems into manageable pieces
       * Developing a heuristic approach to problem solving
@@ -56,7 +56,7 @@ The check-ins for Complete Me are informal and function more like pairing sessio
      - Answer questions but mostly observe process quietly
      - Explain how the `select` method works
        * Autocomplete systems should be intelligent and prioritize words that have been selected before.
-      
+
 Give this to students:
 
 ## Phase 5
