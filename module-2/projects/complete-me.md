@@ -41,7 +41,7 @@ The check-ins for Complete Me are informal and function more like pairing sessio
 1. Have student whiteboard a trie (**10 minutes**)
     - **Insert "cake", "cherry", "cakes", "cola", "pie"**
     - Students should talk through the logic step by step
-    - For example, they should say, "To insert 'cake', we'll split cat into an array of characters. The first character is 'c', so we will check the root node to see if it already has a child node of 'c'. It doesn't, so we'll create a new node and add it to our trie."
+    - For example, they should say, "To insert 'cake', we'll split it into an array of characters. The first character is 'c', so we will check the root node to see if it already has a child node of 'c'. It doesn't, so we'll create a new node and add it to our trie."
     - **Suggest "c"**
     - Students tend to gloss over the details, but the description of what is happening should be as verbose and detailed as the description of `insert`
  2. Have student talk through implementing the select method using their whiteboarded trie (**5 minutes**)
