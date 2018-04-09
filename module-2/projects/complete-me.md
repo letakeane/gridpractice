@@ -38,10 +38,10 @@ The check-ins for Complete Me are informal and function more like pairing sessio
 
 ## Evaluations
 
-1. Have student whiteboard a trie (**5 minutes**)
+1. Have student whiteboard a trie (**10 minutes**)
     - **Insert "cake", "cherry", "cakes", "cola", "pie"**
     - Students should talk through the logic step by step
-    - For example, they should say, "To insert 'cake', we'll split cat into an array of characters. The first character is 'c', so we will check the root node to see if it already has a child node of 'c'. It doesn't, so we'll create a new node and add it to our trie."
+    - For example, they should say, "To insert 'cake', we'll split it into an array of characters. The first character is 'c', so we will check the root node to see if it already has a child node of 'c'. It doesn't, so we'll create a new node and add it to our trie."
     - **Suggest "c"**
     - Students tend to gloss over the details, but the description of what is happening should be as verbose and detailed as the description of `insert`
  2. Have student talk through implementing the select method using their whiteboarded trie (**5 minutes**)
@@ -51,11 +51,12 @@ The check-ins for Complete Me are informal and function more like pairing sessio
       * Developing a heuristic approach to problem solving
     - Kick off the process by encouraging student to use the trie they just whiteboarded to start understanding how `suggest` would work (what would happen if we ran `suggest('c')`?
     - Give guidance where needed
-  4. Have the student attempt to implement `select`.
-     - Encourage pseudo coding
-     - Answer questions but mostly observe process quietly
+  4. Have the student attempt to implement `select` (**15 minutes**)
      - Explain how the `select` method works
        * Autocomplete systems should be intelligent and prioritize words that have been selected before.
+     - Encourage pseudo coding
+     - Encourage test driven design
+     - Answer questions but mostly observe process quietly
 
 Give this to students:
 
