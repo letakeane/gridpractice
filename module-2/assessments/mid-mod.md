@@ -260,10 +260,12 @@ EXERCISE 1: Create an object whose keys are the levels at which the different ty
 // {
 //   high: [ 'cirrus', 'cumulonimbus', 'cumulus' ],
 //   low: [ 'cumulonimbus', 'stratus', 'cumulus' ],
-//   middle: [ 'cumulonimbus', 'stratus', 'cumulus' 
+//   middle: [ 'cumulonimbus', 'stratus', 'cumulus']
 // }
 ```
 
 EXERCISE 2: What cloud types didn't we see while cloud spotting? Return an array of the names of the types of clouds we didn't see.
 
-`// [ 'cumulonimubus', 'stratus' ]`
+```
+// [ 'cumulonimbus', 'stratus' ]
+```
