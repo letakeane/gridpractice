@@ -80,7 +80,7 @@ Recognize and reward student risk-taking and agency. Applaud questions. Push stu
 
 ## Module Flow
 
-To get a sense of the ups and downs of Mod 2, see the [mod calendar breakdown]('./mod-2-calendar.md').
+To get a sense of the ups and downs of Mod 2, see the [mod calendar breakdown](mod-2-calendar.md).
 
 ## Links
 * [Prework](https://github.com/turingschool/intermission-assignments/blob/master/prep-for-module-2-frontend.markdown)
