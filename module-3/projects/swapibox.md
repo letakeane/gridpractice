@@ -1,4 +1,4 @@
-#### SWAPIbox
+# SWAPIbox
 
 ## Description
 
