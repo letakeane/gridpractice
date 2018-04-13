@@ -10,6 +10,8 @@
 
 ## Important links
 
+[Project Repo](https://github.com/turingschool-examples/movie-tracker)
+
 ## Common student pitfalls
 
 ## ToDo's

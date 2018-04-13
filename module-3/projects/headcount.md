@@ -10,6 +10,8 @@
 
 ## Important links
 
+[Project Repo](https://github.com/turingschool-examples/headcount2.0)
+
 ## Common student pitfalls
 
 ## ToDo's
