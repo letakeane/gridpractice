@@ -23,30 +23,30 @@ create-react-app.
 ## Process
 
 1) What is our application going to look like? What are the critical components
-  - App
-  - Form
-  - CardContainer
-  - Card(s)
+    - App
+    - Form
+    - CardContainer
+    - Card(s)
 2) Are these components going to be stateful or stateless? Why
-  - Turn and talk
+    - Turn and talk
 3) We say that in React "Data down, actions up", what do we mean by this?
 4) Bootstrap an app with create-react-app
 5) Give a quick tour of what this boilerplate gives you
 6) We have an App already, what state will this have?
-  - Ideas
+    - Ideas
 7) Build out the form component
-  - We call this a controlled form component
-  - What will the state of our form be?
-    - title
-    - description
-  - How will we handle changes in the form inputs?
-    - onChange
-  - How will we handle the form submission?
-    - onSubmit
+    - We call this a controlled form component
+    - What will the state of our form be?
+      - title
+      - description
+    - How will we handle changes in the form inputs?
+      - onChange
+    - How will we handle the form submission?
+      - onSubmit
 8) Lets talk about binding
-  - Take 5 minutes, and read whatever docs you can find
-    - What does it mean for a function to be 'bound'
-    - How do we bind a function to the class in JavaScript?
+    - Take 5 minutes, and read whatever docs you can find
+      - What does it mean for a function to be 'bound'
+      - How do we bind a function to the class in JavaScript?
 
 ## Useful links
 
