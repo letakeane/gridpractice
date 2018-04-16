@@ -65,9 +65,9 @@ create-react-app.
 
 ## Useful links
 
-[create-react-app](https://github.com/facebook/create-react-app)
+[create-react-app](https://github.com/facebook/create-react-app)  
 [computed property
-name](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer#Computed_property_names)
+name](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer#Computed_property_names)  
 
 ## Context
 
