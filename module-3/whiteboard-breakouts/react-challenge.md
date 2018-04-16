@@ -1,0 +1,64 @@
+* assume you are given a form component that creates an idea with a title, body & id
+
+* be able to pass down cards
+
+* add cards
+
+* remove cards
+
+## Example App Component
+
+```javascript
+// App.js
+
+class App extends Component {
+  constructor() {
+    super()
+      this.state = {
+        ideas: []
+     }
+  }
+  
+  addIdea = (idea) = {
+    const ideas = [...this.state.ideas, idea]
+    this.setState({ ideas })
+  }
+  
+  deleteIdea = (id) = {
+    const filteredIdeas = this.state.ideas.filter(idea => idea.id !== id)
+    this.setState({ ideas: filteredIdeas })
+  }
+  
+  render() {
+    return (
+      <div>
+        <IdeaForm addIdea={this.addIdea} />
+        <IdeaContainer ideas={this.state.ideas} deleteIdea={this.deleteIdea} />
+      </div>
+    )
+  }
+}
+```
+
+## Example IdeaContainer Component
+
+```javascript
+// IdeaContainer.js
+
+const IdeaContainer = ({ ideas, deleteIdea }) => {
+
+  const ideaCards = ideas.map(idea => {
+    return <Card
+      {...idea}
+      key={idea.id}
+      deleteIdea={deleteIdea}
+    />
+  })
+
+  return (
+    <div>
+      {ideaCards}
+    </div>
+  )
+}
+```
