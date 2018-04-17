@@ -1,7 +1,7 @@
 # Mod 3
 
 * [Lesson Plans](lesson-plans)
-  * [Ideabox](lesson-plans/ideabox)
+  * [Ideabox](lesson-plans/ideabox.md)
 * [Projects](projects)
 * [Assessments](assessments)
 * [Live Code](live-code)
