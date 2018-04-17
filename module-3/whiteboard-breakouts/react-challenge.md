@@ -1,10 +1,12 @@
-* assume you are given a form component that creates an idea with a title, body & id
+# React Whiteboard Challenge
 
-* be able to pass down cards
+### Instructions
 
-* add cards
-
-* remove cards
+* Assume you are given a form component that creates an idea with a title, body & id
+* Create the following components: **App**, **IdeaContainer**, and **Card**
+* You should be able to pass ideas down to the cards
+* You should be able to add new ideas
+* You should be able to remove ideas (students may not have time to get to this piece, but she be able to verbalize what this would look like)
 
 ## Example App Component
 
