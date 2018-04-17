@@ -2,8 +2,20 @@
 
 ## Description
 
+Movietracker is the student's first project using Redux, and also includes
+exposure to a Postgresql database, the schema of which is provided for them.
+When setting up the project, the students are required to clone down a server
+repository, which has instructions for setting up Postgresql. They are then
+tasked with creating a react app to sit alongside this repo.
+
+The project itself uses the MovieDB API, and requires the students to make calls
+to fetch movies, and related information from the API. They're also tasked with
+saving 'favorite' movies to the Postgresql, as well as using the database to
+manage user creation/authentication. 
+
 ## Learning goals
 
+- Additional experience with asynchronous javascript
 - Redux
   - Create *pure* action creators and reducers
   - Create Redux connected container components
@@ -28,6 +40,7 @@
 
 ## Important links
 
+[Movie DB API](https://www.themoviedb.org/documentation/api)
 [Project Repo](https://github.com/turingschool-examples/movie-tracker)
 
 ## Common student pitfalls
