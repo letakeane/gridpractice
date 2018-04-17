@@ -62,3 +62,19 @@ const IdeaContainer = ({ ideas, deleteIdea }) => {
   )
 }
 ```
+
+## Example Card Component
+
+```javascript
+// Card.js
+
+const Card = ({ title, body, id, deleteIdea }) => {
+  return (
+    <div>
+      <h3>{title}</h3>
+      <p>{body}</p>
+      <button onClick={() => deleteIdea(id)}>Delete</button>
+    </div>
+  )
+}
+```
