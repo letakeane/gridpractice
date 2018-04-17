@@ -1,3 +1,3 @@
 # Mod 3
 
-* [Lesson Plans](/lesson-plans)
+* [Lesson Plans](#lesson-plans)
