@@ -1,6 +1,6 @@
 # React Whiteboard Challenge
 
-### Instructions
+### Instructions to student
 
 * Assume you are given a form component that creates an idea with a title, body & id
 * Create the following components: **App**, **IdeaContainer**, and **Card**
