@@ -15,7 +15,7 @@ Formatting:
 
 ### Curriculum: Projects
 
-* Leta: Update Complete Me spec and project guideliness to reflect emphasis on process
+* Leta: Update Complete Me spec and project guidelines to reflect emphasis on process
   * Due: Wednesday of Week 3
   * Completed: Wednesday of Week 3
 * Leta: Update config lesson to include babel and babel config for testing
@@ -29,6 +29,8 @@ Formatting:
   * Completed: pending  
 * Brittany: Update calendar for 1804 inning
   * Due: By final Friday of 1803 inning
-  * Completed: pending 
+  * Completed: pending
+* Leta: Update create-react-app for Weathrly (include testing adapter and sass)
+  * Due
 
 ### Other
