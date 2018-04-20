@@ -2,6 +2,8 @@
 
 Welcome to Mod 3! Here you'll find the keys to this module:
 
+* [Curriculum Goals](curriculum-goals.md)
+* [Weekly Breakdown](weekly-breakdown.md)
 * [Lesson Plans](lesson-plans)
   * [Ideabox](lesson-plans/ideaBox.md)
   * [Testing With React](lesson-plans/testingWithReact.md)
