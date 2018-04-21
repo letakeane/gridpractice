@@ -14,8 +14,6 @@ Note: This does not include the Professional Development or Gear Up lessons.
 * [Unit Testing React](http://frontend.turing.io/lessons/module-3/unit-testing-react.html)
 * [Advanced Lifecycle Methods](http://frontend.turing.io/lessons/module-3/react-advanced-lifecycle-methods-and-concepts.html)
 * [git Merge v Rebase](http://frontend.turing.io/lessons/module-3/merge-vs-rebase.html)
-* [Scope: Block & Functional (and Closures)](http://frontend.turing.io/lessons/module-2/scope-and-closures.html)
-* jsFUNdamentals (weekly review lesson)
 
 ### Small Group Workshop
 
