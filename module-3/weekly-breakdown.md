@@ -1,6 +1,5 @@
-NOTE: The examples in this template file are from Mod 2, and are included here for style and structure reference.
 
-# Module 2 Calendar
+# Module 3 Calendar
 
 Note: This does not include the Professional Development or Gear Up lessons.
 
@@ -9,18 +8,23 @@ Note: This does not include the Professional Development or Gear Up lessons.
 ### Lessons
 
 * Goals and Expectations
-* [JS/Pre-work Review](http://frontend.turing.io/lessons/module-2/js-5.html)
-* [Array and Object Prototype Methods](http://frontend.turing.io/lessons/module-2/array-and-object-functions.html)
-* [ES5 vs ES6](http://frontend.turing.io/lessons/module-2/es5-vs-es6.html)
-* [Intro to Object Oriented Programming](http://frontend.turing.io/lessons/module-2/intro-to-oop.html)
-* [Test Driven Development](http://frontend.turing.io/lessons/module-2/test-driven-development.html)
-* [Understanding `this`](http://frontend.turing.io/lessons/module-2/this-is-confusing.html)
+* [IdeaBox Lesson](https://github.com/turingschool/front-end-keys/blob/master/module-3/lesson-plans/ideaBox.md)
+* [IdeaBox Live Code](https://github.com/turingschool/front-end-keys/tree/master/module-3/live-code/ideabox)
+* [componentDidMount and Prop Types](http://frontend.turing.io/lessons/module-3/react-basic-lifecycle-methods-and-propTypes.html)
+* [Unit Testing React](http://frontend.turing.io/lessons/module-3/unit-testing-react.html)
+* [Advanced Lifecycle Methods](http://frontend.turing.io/lessons/module-3/react-advanced-lifecycle-methods-and-concepts.html)
+* [git Merge v Rebase](http://frontend.turing.io/lessons/module-3/merge-vs-rebase.html)
 * [Scope: Block & Functional (and Closures)](http://frontend.turing.io/lessons/module-2/scope-and-closures.html)
 * jsFUNdamentals (weekly review lesson)
 
+### Small Group Workshop
+
+* [React Whiteboard Challenge](https://github.com/turingschool/front-end-keys/blob/master/module-3/whiteboard-breakouts/react-challenge.md)
+* [Object Challenge](https://github.com/turingschool/front-end-keys/blob/master/module-3/whiteboard-breakouts/object-challenge.md)
+
 ### Project / Evals / Assessments
 
-* [GameTime](http://frontend.turing.io/projects/game-time.html) project kickoff
+* [Headcount 2.0](https://github.com/turingschool-examples/headcount2.0) project kickoff
 
 ### Typical Student Experience
 
