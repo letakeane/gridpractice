@@ -2,6 +2,7 @@
 
 Welcome to Mod 3! Here you'll find the keys to this module:
 
+* [Pre-work](https://github.com/turingschool/intermission-assignments/blob/master/prep-for-module-3-frontend.markdown)
 * [Curriculum Goals](curriculum-goals.md)
 * [Weekly Breakdown](weekly-breakdown.md)
 * [Lesson Plans](lesson-plans)
