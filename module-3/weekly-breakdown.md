@@ -22,11 +22,9 @@ Note: This does not include the Professional Development or Gear Up lessons.
 
 ### Project / Evals / Assessments
 
-* [Headcount 2.0](https://github.com/turingschool-examples/headcount2.0) project kickoff
+* [Headcount 2.0 Kickoff](https://github.com/turingschool-examples/headcount2.0)
 
 ### Typical Student Experience
-
-
 
 ### Typical Instructor Experience
 
@@ -57,7 +55,21 @@ Note: This does not include the Professional Development or Gear Up lessons.
 
 ### Lessons
 
+* [Intro to Redux](http://frontend.turing.io/lessons/module-3/starting-up-redux.html)
+* [Testing Redux](http://frontend.turing.io/lessons/module-3/testing-redux.html)
+* [Redux Thunks](http://frontend.turing.io/lessons/module-3/redux-thunk-middleware.html)
+
+### Small Group Workshop
+
+* [Redux Whiteboard Challenge](https://github.com/turingschool/front-end-keys/blob/master/module-3/whiteboard-breakouts/redux-challenge.md)
+
 ### Project / Evals / Assessments
+
+* [SwapiBox evals]()
+* [Movie Tracker Kickoff](https://github.com/turingschool-examples/movie-tracker)
+* [Mid-Mod Expectations](https://github.com/turingschool/front-end-keys/blob/master/module-3/assessments/midMod.md)
+* [Mid-Mod Assessment - frontend](https://github.com/Tman22/funExample)
+* [Mid-Mod Assessment - backend](https://github.com/rrgayhart/fun-parser)
 
 ### Typical Student Experience
 
