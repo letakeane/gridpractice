@@ -35,16 +35,18 @@ Note: This does not include the Professional Development or Gear Up lessons.
 
 ### Lessons
 
-* [Refactoring Your Code]()
-* Debugging Workshop (lesson plan forthcoming)
-* [Project Configuration: Creating a boilerplate]()
-* [Intro to Sorting Algorithms]()
-* [Big O]()
+* [Promises/Async JS](http://frontend.turing.io/lessons/module-3/promises.html)
+* [Testing Async JS & API Calls](http://frontend.turing.io/lessons/module-3/testing-async.html)
+* [React Router v4](http://frontend.turing.io/lessons/module-3/react-router-v4.html)
+
+### Small Group Workshop
+
+* [Prctice with Promises](http://frontend.turing.io/lessons/module-3/promises-practice.html)
 
 ### Project / Evals / Assessments
 
-* [Gametime evals](https://github.com/turingschool/front-end-keys/blob/master/module-2/projects/game-time.md
-* Sorting Suite project kickoff
+* [Headcount evals]()
+* [SwpapiBox Kickoff](http://frontend.turing.io/projects/swapi-box.html)
 
 ### Typical Student Experience
 
