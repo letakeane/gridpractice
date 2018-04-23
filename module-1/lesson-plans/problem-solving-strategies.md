@@ -27,7 +27,8 @@ Groups should design the room in a manner that allows for the following:
 1) Group collaboration (a group being at least 4 people)
 2) The ability to seamlessly break into smaller groups of two to three people
 3) Ease of moving around the classroom
-4) Class discussion
+4) The option for some students to be able to face forward 
+5) Class discussion
 
 The deadline for this project is seven minutes.
 
