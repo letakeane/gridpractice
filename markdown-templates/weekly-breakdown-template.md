@@ -1,3 +1,5 @@
+NOTE: The examples in this template file are from Mod 2, and are included here for style and structure reference.
+
 # Module 2 Calendar
 
 Note: This does not include the Professional Development or Gear Up lessons.
