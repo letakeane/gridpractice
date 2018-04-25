@@ -8,7 +8,7 @@ AmazonBay is a _single-page app_. There should be only one client-side URL (`/`)
 
 ### Inventory and Main Page
 
-The main page should display the inventory of the site. It should be a card UI with each item as a card. Each card should have:
+The main page should display the inventory of the AmazonBay. It should be a card UI with each store item as a card. Each card should have:
 
 - Title of the item
 - Item description
@@ -16,16 +16,16 @@ The main page should display the inventory of the site. It should be a card UI w
 - Item price
 - A button to add the item to the cart
 
-The inventory should be stored in the backend database using _either_ `app.locals` or a knex/PostgreSQL database. Your model for inventory items should be:
+The inventory should be stored in the backend database using knex/PostgreSQL. The model for inventory items should be:
 
 - Title
 - Description
 - Image (you can store a link to an image if you would like)
 - Price
-  - Price should be stored in `app.locals` or a knex/PostgreSQL database using cents as an `integer` type (100), or in dollars using a `decimal` type (1.00)
+  - Price should be stored in the database using cents as an `integer` type (100), or in dollars using a `decimal` type (1.00)
   - When displaying the price in the app, it should be shown as `$1.00`
 
-Assume there is an unlimited amount of things!
+Assume there is an unlimited amount of things! You don't have to keep track of the quantity of each item in the inventory.
 
 ### Shopping Cart
 
@@ -39,7 +39,7 @@ The cart should show:
 - A button to purchase all of the items in the cart
   - When you click the button, the order should be processed immediately and a new order should appear in the Order History
 
-Assume you can only purchase one of each thing at a time. The items in the cart should persist on page refresh using `localStorage`.
+Assume you can only purchase one of each thing at a time. The items in the shopping cart should persist on page refresh using `localStorage`.
 
 ### Order History
 
@@ -50,7 +50,7 @@ After someone purchases the items in their cart, the order should appear in the 
 - The date each order was made
 - The total price for each order
 
-The order history should persist on page refresh using your backend database. This database can be _either_ `app.locals` or a knex/PostgreSQL database.
+The order history should persist on page refresh using your backend database. This database should be a knex/PostgreSQL database.
 
 The data model for an order should be:
 
@@ -60,11 +60,6 @@ The data model for an order should be:
 ### Production
 
 **Your app should be pushed to production on Heroku.** You do not need to incorporate CircleCI for this assessment.
-
-### Extensions
-
-- **10 points:** True persistence using knex/PostgreSQL instead of `app.locals`
-- **10 points:** Client side testing of the whole purchase and checkout process
 
 ## Wireframes
 
@@ -86,6 +81,8 @@ In order to pass the assessment, students must achieve a 3 or above on all rubri
 * 3: The application is in a usable state, but is missing 1 feature outlined in the specification above. Application is in production.
 * 2: The application is missing 2 or more features outlined in the specification above. Application is in production but not working.
 * 1: The application is unusable and not in production.
+
+Completing one or more extensions will improve this category's score.
 
 ### JavaScript Syntax & Style
 
@@ -119,8 +116,8 @@ In order to pass the assessment, students must achieve a 3 or above on all rubri
 
 ### Workflow
 
-* 4: The developer effectively uses Git branches and many small, atomic commits that document the evolution of their application.
-* 3: The developer makes a series of small, atomic commits that document the evolution of their application. There are no formatting issues in the code base.
-* 2: The developer makes large commits covering multiple features that make it difficult for the evaluator to determine the evolution of the application.
-* 1: The developer committed the code to version control in only a few commits. The evaluator cannot determine the evolution of the application.
+* 4: Developer makes many small, atomic commits that clearly document the evolution of the application and do not contain irrelevant changesets that aren't reflected by the commit message. Commit messages are concise and consistent in syntax and tense. Developer effectively uses git branches and pull requests when applicable to incorporate changes into the application, and are not pushing directly to master. There are no instances where the developer has committed source code that should be .gitignored. There are no instances of "dead" or commented-out code and debugger statements like console.log.
+* 3: Developer makes many small, atomic commits that document the evolution of the application but sometimes contain irrelevant changesets and inconsistent commit messages. Developer uses git branches and pull requests when applicable to incorporate changes into the application, and are not pushing fresh changes directly to master. Pull requests may contain little or no code review. There may be slight instances where the developer has committed source code that should be .gitignored. There may be some instances of "dead" or commented-out code and debugger statements like console.log that need to be cleaned up.
+* 2: Developer makes large, inconsistent commits that contain irrelevant changesets and make it difficult to follow the evolution of the application. Developer rarely uses git branches and frequently incorporate changes directly into master with little or no review process. There are instances of committed source code that should be .gitignored and instances of dead code and/or debugger statements.
+* 1: Developer makes very few commits that each cover too much responsibility and aren't indicative of how the application evolved. Branches and pull requests were not used and changesets were applied directly to master. There are many instances of committed source code that should be .gitignored and many instances of dead code and/or debugger statements.
 
