@@ -2,7 +2,7 @@
   * name of issue should be cohort mod 4 logistics checklist
   * issue should be closed after cohort graduates
 
-### Before week 1: 
+### Before Week 1: 
 * [ ] If needed, update day 1 presentation introducing the module
 * [ ] Use [Calendar Shift app](https://github.com/turingschool/calendar-shift) to move over calendar to next module
 * [ ] Add your interview slots!
