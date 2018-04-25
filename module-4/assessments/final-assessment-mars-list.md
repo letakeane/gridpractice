@@ -1,5 +1,7 @@
 # Your Mars Packing List
 
+**Time Alloted: 5 hours**
+
 You'll be making an application so that you can assemble a packing list for a trip to Mars! You can work from 9am-2pm. Any commits after 2pm should be done on a separate branch from `master`.
 
 ## Technology Stack
