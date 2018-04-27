@@ -86,7 +86,7 @@ Sweet... our IdeaForm is looking pretty good. Now we need to think about submitt
 
 I'm thinking we want to store all of our ideas in our App component's state. We will also need to create an addIdea function in App that we can pass down as props to our IdeaForm. This function should take in a new idea and create a new copy of state.
 
-```
+```js
 import React, { Component } from 'react';
 import './App.css';
 import IdeaForm from './IdeaForm';
@@ -99,6 +99,8 @@ class App extends Component {
 
   addIdea = (idea) => {
     const ideas = [...this.state.ideas, idea]
+    // if we want to add our id here instead of the form...
+    // const ideas = [...this.state.ideas, {...idea, id: Date.now()}]
     this.setState({ ideas })
   }
 
@@ -119,13 +121,14 @@ export default App;
 
 Ok, so now we are passing our addIdea function down to our IdeaForm. Let's talk about what IdeaForm is going to do with it. How about let's put an onSubmit event handler on the form and have it call a submitIdea function that lives inside IdeaForm... BRILLIANT!
 
-```
+```js
 // IdeaForm.js
 
 submitIdea = (e) => {
   e.preventDefault()
   // const idea = Object.assign({ id: Date.now() }, this.state)
   const idea = { ...this.state, id: Date.now() }
+  // if we don't want to add the id here, we can add it in our addIdea function and just pass in `this.state` to `this.props.addIdea(this.state)` 
   this.props.addIdea(idea)
   this.setState({ title: '', body: '' })
 }
@@ -137,7 +140,7 @@ At this point, our idea object functions just fine with just what's being kept i
 
 Currently, our array of ideas is being stored in our App's state. We need to somehow pass that array down to a container that will hold our idea cards. Let's first create an IdeaContainer that will be rendered in App. Does our IdeaContainer need to be stateful? Nope, we just need to be able to pass it some props.
 
-```
+```js
 import React from 'react';
 import Card from './Card';
 
@@ -161,7 +164,7 @@ I'm also checking to see if there are any ideas in the idea array. If there are,
 
 Since we are returning an idea card, we probably need to create it. The idea card receives all the properties of the idea as props and renders them on the card.
 
-```
+```js
 import React from 'react';
 
 const Card = ({ title, body, id }) => {
@@ -182,7 +185,7 @@ We can display ideas on the page!!! Only thing left to do now is be able to dele
 
 So, we said earlier that each idea would need an id for us to be able to delete an idea. Where do you think this functionality should live? If you said in the App component, YOU'RE TOTALLY RIGHT! But first, we need to add a delete button to each of our idea cards that will call that function that is passed down from App => IdeaContainer => Card.
 
-```
+```js
 import React from 'react';
 
 const Card = ({ title, body, id, deleteIdea }) => {
@@ -200,7 +203,7 @@ export default Card;
 
 Now, let's write our delete function. I'm thinking we need to filter through our array of cards in state and only return the ones that do not match the id that is passed in.
 
-```
+```js
 // App.js
 
 deleteIdea = (id) => {
