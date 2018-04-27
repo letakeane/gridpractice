@@ -18,6 +18,7 @@ class IdeaForm extends Component {
     e.preventDefault()
     // const idea = Object.assign({ id: Date.now() }, this.state)
     const idea = { ...this.state, id: Date.now() }
+    // if we were to add the id in addIdea instead of submitIdea, we would just pass in this.state to this.props.addIdea
     this.props.addIdea(idea)
     this.setState({ title: '', body: '' })
   }
