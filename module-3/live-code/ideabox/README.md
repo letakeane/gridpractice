@@ -100,7 +100,8 @@ class App extends Component {
   addIdea = (idea) => {
     const ideas = [...this.state.ideas, idea]
     // if we want to add our id here instead of the form...
-    // const ideas = [...this.state.ideas, {...idea, id: Date.now()}]
+    // const newIdea = {...idea, id: Date.now()}
+    // const ideas = [...this.state.ideas, newIdea]
     this.setState({ ideas })
   }
 
