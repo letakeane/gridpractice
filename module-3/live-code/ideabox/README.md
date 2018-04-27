@@ -38,43 +38,43 @@ The first component I want to build out is my IdeaForm that has a title input, a
 
 ** Don't forget to `export` your IdeaForm and `import` it into `App.js` **
 
-```
+```js
 import React, { Component } from 'react';
 
 class IdeaForm extends Component {
   constructor() {
-	super()
-	this.state = {
-	  title: '',
-	  body: ''
-	 }
-	}
+    super()
+      this.state = {
+        title: '',
+	body: ''
+      }
+  }
 
-	handleInputChange = (e) => {
+  handleInputChange = (e) => {
     const { name, value } = e.target
     this.setState({ [name]: value })
   }
 
-	render() {
-	  return(
-  		<form>
-  		  <input
-  		    type='text'
-  		    placeholder='title'
-  		    name='title'
-  		    value={this.state.title}
-  		    onChange={this.handleInputChange}
-  		  />
-  		  <input
-  		    type='text'
-  		    placeholder='body'
-  		    name='body'
-  		    value={this.state.body}
-  		    onChange={this.handleInputChange}
-  		  />
-  		  <button>Submit</button>
-  		</form>
-	  )
+  render() {
+    return(
+      <form>
+        <input
+	    type='text'
+	    placeholder='title'
+	    name='title'
+	    value={this.state.title}
+	    onChange={this.handleInputChange}
+	  />
+	  <input
+	    type='text'
+	    placeholder='body'
+	    name='body'
+	    value={this.state.body}
+	    onChange={this.handleInputChange}
+	  />
+	  <button>Submit</button>  
+      </form>
+    )
   }
 }
 
