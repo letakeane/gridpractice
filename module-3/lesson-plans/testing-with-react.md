@@ -11,3 +11,5 @@
 ## Context
 
 ## Todos
+
+* [ ] Update lesson to use idea box
