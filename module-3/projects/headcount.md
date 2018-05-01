@@ -38,4 +38,4 @@ n/a
 
 ## ToDo's
 
-* [ ] write todos
+* [ ] move test folder into src and update import paths
