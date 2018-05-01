@@ -45,6 +45,9 @@
   career after Turing. This could vary substantially student to student, but may
   include: cold outreaches, coffee meetings with prospective employeers, mock
   interviews with mentors, networking at meetups, etc.
+* [Mod 3 Professional
+  Overview](https://github.com/turingschool/career-development-curriculum/tree/master/module_three)
+* [Gear Up Overview](https://github.com/turingschool/gear-up)
 
 ## Role in Program
 
