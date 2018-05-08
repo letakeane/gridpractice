@@ -22,46 +22,46 @@ create-react-app.
 
 ## Process (Questions should be posed to the class)
 
-1) What is our application going to look like? What are the critical components
-    - App
-    - Form
-    - CardContainer
-    - Card(s)
-2) Are these components going to be stateful or stateless? Why
-    - Turn and talk
-3) We say that in React "Data down, actions up", what do we mean by this?
-4) Bootstrap an app with create-react-app
-5) Give a quick tour of what this boilerplate gives you
-6) We have an App already, what state will this have?
-    - Ideas
-7) Build out the form component
-    - We call this a controlled form component
-    - What will the state of our form be?
-      - title
-      - description
-    - How will we handle changes in the form inputs?
-      - `onChange`
-    - How will we handle the form submission?
-      - `onSubmit`
-8) Lets talk about binding
-    - Take 5 minutes, and read whatever docs you can find
-      - What does it mean for a function to be 'bound'?
-      - How do we bind a function to the class in JavaScript?
-9) Ok, how can we bind our `onChange` and `onSubmit` handlers
-    - In the constructor
-    - Using ES6 arrow syntax
-10) Make just one function to handle the onChange of both inputs (handleChange)
-    - Turn and talk: How could we make one function that handles both inputs?
-    - Make use of the name attribute on the input
-    - In the handler function, set state using the computed property name syntax
-11) Make our handleSubmit function
-    - What does our handle submit function need to do?
-    - If our App component holds the ideas where will the function that updates
-      the state live?
-    - Remember: Data down, Actions up
-12) Make our addIdea function in App
-    - Why do we use `setState` vs `this.state =`?
-13) On your own (or livecode, instructors choice) how would we remove an idea?
+- What is our application going to look like? What are the critical components
+  - App
+  - Form
+  - CardContainer
+  - Card(s)
+- Are these components going to be stateful or stateless? Why
+  - Turn and talk
+- We say that in React "Data down, actions up", what do we mean by this?
+- Bootstrap an app with create-react-app
+- Give a quick tour of what this boilerplate gives you
+- We have an App already, what state will this have?
+  - Ideas
+- Build out the form component
+  - We call this a controlled form component
+  - What will the state of our form be?
+    - title
+    - description
+  - How will we handle changes in the form inputs?
+    - `onChange`
+  - How will we handle the form submission?
+    - `onSubmit`
+- Lets talk about binding
+  - Take 5 minutes, and read whatever docs you can find
+    - What does it mean for a function to be 'bound'?
+    - How do we bind a function to the class in JavaScript
+- Ok, how can we bind our `onChange` and `onSubmit` handlers
+  - In the constructor
+  - Using ES6 arrow syntax
+- Make just one function to handle the onChange of both inputs (handleChange)
+  - Turn and talk: How could we make one function that handles both inputs?
+  - Make use of the name attribute on the input
+  - In the handler function, set state using the computed property name syntax
+- Make our handleSubmit function
+  - What does our handle submit function need to do?
+  - If our App component holds the ideas where will the function that updates
+    the state live?
+  - Remember: Data down, Actions up
+- Make our addIdea function in App
+  - Why do we use `setState` vs `this.state =`?
+- On your own (or livecode, instructors choice) how would we remove an idea?
 
 ## Useful links
 
