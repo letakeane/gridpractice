@@ -16,7 +16,7 @@ Welcome to Mod 3! Here you'll find the keys to this module:
   * [Movietracker](projects/movietracker.md)
   * [Personal Project](projects/personal-project.md)
 * [Assessments](assessments)
-  * [Mid Mod](assessments/midMod.md)
+  * [Mid Mod](assessments/mid-mod.md)
   * [Final](assessments/final.md)
 * [Live Code](live-code)
   * [Ideabox](live-code/ideabox)
