@@ -40,8 +40,9 @@ manage user creation/authentication.
 
 ## Important links
 
-* [Movie DB API](https://www.themoviedb.org/documentation/api)
-* [Project Repo](https://github.com/turingschool-examples/movie-tracker)
+[Movie DB API](https://www.themoviedb.org/documentation/api)  
+[Project Repo](https://github.com/turingschool-examples/movie-tracker)  
+[Grading Rubric](https://github.com/turingschool/front-end-submissions-public/blob/master/templates/mod-3/movietracker.md)  
 
 ## Common student pitfalls
 

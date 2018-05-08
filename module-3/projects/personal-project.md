@@ -31,6 +31,8 @@ first time around.
 
 ## Important links
 
+[Grading Rubric](https://github.com/turingschool/front-end-submissions-public/blob/master/templates/mod-3/personal-project.md)  
+
 ## Common student pitfalls
 
 - Students will often pick a project that is too big for the amount of time they

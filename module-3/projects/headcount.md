@@ -28,6 +28,8 @@ n/a
 ## Important links
 
 [Project Repo](https://github.com/turingschool-examples/headcount2.0)
+[Grading
+Rubric](https://github.com/turingschool/front-end-submissions-public/blob/master/templates/mod-3/headcount.md)
 
 ## Common student pitfalls
 
