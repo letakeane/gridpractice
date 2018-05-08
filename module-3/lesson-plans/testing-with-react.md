@@ -2,9 +2,18 @@
 
 ## Description
 
+This lesson builds on the review of React from a previous lesson, showing the
+students how to effectively test their React applications.
+
 ## Learning goals
 
-## Process (Questions should be posed to the class)
+- Be able to articulate the difference between Unit, Integration, and Acceptance
+  tests.
+- How to use snapshot testing to quickly test UI
+- How to use instance() to unit test individual methods of the React component
+- How to use spies or mocks to see if a given function was called
+
+## Process
 
 ## Useful links
 
