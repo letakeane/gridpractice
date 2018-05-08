@@ -38,7 +38,7 @@ how to test it isolation.
 
 ## Useful links
 
-[Lesson Plan](http://frontend.turing.io/lessons/module-3/testing-async.html)
+[Lesson Plan](http://frontend.turing.io/lessons/module-3/testing-async.html)  
 [Grocery Application](https://github.com/turingschool-examples/grocery-list/tree/async-begin)
 
 ## Context
@@ -51,3 +51,4 @@ Mocking fetch allows us only test the behavior of our application.
 ## Todos
 
 * [ ] Move mocking in lesson into beforeEach
+* [ ] Add importand vocab
