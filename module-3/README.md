@@ -8,6 +8,7 @@ Welcome to Mod 3! Here you'll find the keys to this module:
 * [Lesson Plans](lesson-plans)
   * [Ideabox](lesson-plans/idea-box.md)
   * [Testing With React](lesson-plans/testing-with-react.md)
+  * [Async JavaScript](lesson-plans/async-javascript-with-promises.md)
   * [Async Testing](lesson-plans/async-testing.md)
 * [Projects](projects)
   * [Headcount](projects/headcount.md)
