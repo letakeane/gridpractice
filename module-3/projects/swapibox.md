@@ -40,8 +40,8 @@ before it's too late.
 
 ## Important links
 
-[Project Outline](http://frontend.turing.io/projects/swapi-box.html)
-[Star Wars API](https://swapi.co/)
+[Project Outline](http://frontend.turing.io/projects/swapi-box.html)  
+[Star Wars API](https://swapi.co/)  
 [Grading Rubric](https://github.com/turingschool/front-end-submissions-public/blob/master/templates/mod-3/swapi.md)  
 
 ## Common student pitfalls
