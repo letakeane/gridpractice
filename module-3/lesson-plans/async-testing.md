@@ -51,4 +51,4 @@ Mocking fetch allows us only test the behavior of our application.
 ## Todos
 
 * [ ] Move mocking in lesson into beforeEach
-* [ ] Add importand vocab
+* [ ] Add important vocab
