@@ -32,9 +32,9 @@ a bridge.
 
 ## Useful links
 
-[Lesson Plan](http://frontend.turing.io/lessons/module-3/hoc-and-currying.html)
-[Curry Demo](https://repl.it/@wvmitchell/Currying-Demo)
-[Ninja Currying](https://repl.it/@wvmitchell/ninjaCurryStart)
+[Lesson Plan](http://frontend.turing.io/lessons/module-3/hoc-and-currying.html)  
+[Curry Demo](https://repl.it/@wvmitchell/Currying-Demo)  
+[Ninja Currying](https://repl.it/@wvmitchell/ninjaCurryStart)  
 
 ## Context
 
