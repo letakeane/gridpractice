@@ -53,3 +53,4 @@ Mocking fetch allows us only test the behavior of our application.
 ## Todos
 
 * [ ] Add important vocab
+* [ ] Update lesson to use try/catch in refactor implementation
