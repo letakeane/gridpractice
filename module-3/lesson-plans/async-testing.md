@@ -18,6 +18,8 @@ how to test it isolation.
 
 ## Process
 
+- Write and discuss
+  - What makes testing asynchronous code difficult
 - Intro the code we're going be testing
 - Stub out the four initial tests
   - Can be a good spot for discussion on test names as descriptions of behavior
