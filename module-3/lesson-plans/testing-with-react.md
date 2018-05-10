@@ -17,6 +17,8 @@ students how to effectively test their React applications.
 
 ## Useful links
 
+[Lesson](http://frontend.turing.io/lessons/module-3/unit-testing-react.html)
+
 ## Context
 
 ## Todos

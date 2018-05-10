@@ -24,7 +24,7 @@ like the ones they're familiar with from around the web.
 
 ## Useful links
 
-[Lesson Plan](http://frontend.turing.io/lessons/module-3/react-router-v4.html)
+[Lesson](http://frontend.turing.io/lessons/module-3/react-router-v4.html)
 
 ## Context
 

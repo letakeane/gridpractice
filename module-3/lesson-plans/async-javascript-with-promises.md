@@ -23,7 +23,7 @@ understanding of the Stack, Queue, Heap, and event loop.
 
 ## Useful links
 
-[Lesson Plan](http://frontend.turing.io/lessons/module-3/promises.html)
+[Lesson](http://frontend.turing.io/lessons/module-3/promises.html)
 
 ## Context
 

@@ -10,6 +10,6 @@
 
 ## Context
 
-[Lesson Plan](http://frontend.turing.io/lessons/module-3/redux-sagas.html)
+[Lesson](http://frontend.turing.io/lessons/module-3/redux-sagas.html)
 
 ## ToDos

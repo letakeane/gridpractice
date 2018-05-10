@@ -19,7 +19,7 @@ redux-sagas, so this lesson serves as a prequel to that one.
 
 ## Useful Links
 
-[Lesson Plan](http://frontend.turing.io/lessons/module-3/es6-generators.html)
+[Lesson](http://frontend.turing.io/lessons/module-3/es6-generators.html)
 
 ## Context
 

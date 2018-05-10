@@ -40,7 +40,7 @@ how to test it isolation.
 
 ## Useful links
 
-[Lesson Plan](http://frontend.turing.io/lessons/module-3/testing-async.html)  
+[Lesson](http://frontend.turing.io/lessons/module-3/testing-async.html)  
 [Grocery Application](https://github.com/turingschool-examples/grocery-list/tree/async-begin)
 
 ## Context
