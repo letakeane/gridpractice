@@ -8,6 +8,10 @@
   - Should be reaching for Array Prototype methods (map, reduce, etc)
   - Should be comfortable destructuring objects, and assigning destructured
     objects to variables
+  - Should be comfortable using a single export at the bottom of any file,
+    regardless if they will be using a default export, or an object export
+      - `export default SomeClass`
+      - `export { methodInFile }`
 * Asynchronous JavaScript
   - Should be able to resolve promises using both the .then(callback) syntax, as
     well as the newer async/await syntax
