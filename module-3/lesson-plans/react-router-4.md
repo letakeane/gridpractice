@@ -11,11 +11,12 @@ like the ones they're familiar with from around the web.
 ## Learning Goals
 
 - Router API
-  - Using Route
-    - component
-    - render
-    - children
-- Understand differences between Router/BrowserRouter
+  - Understand differences between Router/BrowserRouter
+  - Using Route component
+    - component prop
+    - render prop
+      - match, location, history
+    - children prop
 - Create routes with different paths
 - Using match params to create dynamic routes
 
