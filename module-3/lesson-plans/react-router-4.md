@@ -29,3 +29,5 @@ like the ones they're familiar with from around the web.
 ## Context
 
 ## ToDos
+
+* [ ] Add process section to this lesson plan
