@@ -2,7 +2,22 @@
 
 ## Description
 
+Prior to this lesson, the students are really only building applications where
+the entire app sits inside of the App component. Router allows them to take a
+step towards building larger applications, by separating application logic into
+sensible routes. Ultimately this allows them to start building applications more
+like the ones they're familiar with from around the web.
+
 ## Learning Goals
+
+- Router API
+  - Using Route
+    - component
+    - render
+    - children
+- Understand differences between Router/BrowserRouter
+- Create routes with different paths
+- Using match params to create dynamic routes
 
 ## Process
 
