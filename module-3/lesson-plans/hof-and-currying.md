@@ -42,3 +42,5 @@ Redux' connect function is the first exposure the group has to a function that
 returns another function, this lesson helps reduce the confusion around that.
 
 ## ToDos
+
+* [ ] Add HOF where function is returned to lesson
