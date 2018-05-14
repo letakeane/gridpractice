@@ -4,16 +4,16 @@
   * issue should be closed after cohort moves on to mod 4
 
 ### Before week 1: 
-* [ ] Add checklist
+* [ ] Make Headcount groups
 
 ### Week 1: 
-* [ ] Add checklist
+* [ ] Make Swapibox groups
 
 ### Week 2:
-* [ ] Add checklist
+* [ ] Make Movietracker groups
 
 ### Week 3:
-* [ ] Add checklist
+* [ ] Assign clients for personal project
 
 ### Week 4:
 * [ ] Add checklist
