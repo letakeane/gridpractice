@@ -30,4 +30,5 @@ Welcome to Mod 3! Here you'll find the keys to this module:
 * [Whiteboard Breakout Sessions](whiteboard-breakouts)
   * [Object Challenge](whiteboard-breakouts/object-challenge.md)
   * [React Challenge](whiteboard-breakouts/react-challenge.md)
+  * [Redux Challenge](whiteboard-breakouts/redux-challenge.md)
 * [Logistics Checklist Template](logistics-checklist-template.md)
