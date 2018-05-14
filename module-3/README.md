@@ -13,6 +13,7 @@ Welcome to Mod 3! Here you'll find the keys to this module:
   * [Async Testing](lesson-plans/async-testing.md)
   * [React Router 4](lesson-plans/react-router-4.md)
   * [HOF and Currying](lesson-plans/hof-and-currying.md)
+  * [Redux Intro](lesson-plans/introducing-redux.md)
   * [JavaScript Generators](lesson-plans/generators.md)
   * [Redux Sagas](lesson-plans/redux-sagas.md)
 * [Projects](projects)
