@@ -8,18 +8,23 @@
 
 ### Week 1: 
 * [ ] Make Swapibox groups
+* [ ] Send out weekly survey
 
 ### Week 2:
 * [ ] Make Movietracker groups
+* [ ] Send out weekly survey
 
 ### Week 3:
 * [ ] Assign clients for personal project
+* [ ] Send out weekly survey
 
 ### Week 4:
 * [ ] Add checklist
+* [ ] Send out weekly survey
 
 ### Week 5:
 * [ ] Add checklist
+* [ ] Send out weekly survey
 
 ### Week 6: 
 * [ ] Add checklist
