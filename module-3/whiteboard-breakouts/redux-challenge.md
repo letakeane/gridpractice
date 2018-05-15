@@ -37,7 +37,7 @@ export default IdeaForm
 ### Actions
 
 ```js
-// index.js
+// actions/index.js
 export const addTodo = (text, id) => ({
  type: 'ADD_TODO',
  text,
@@ -48,7 +48,7 @@ export const addTodo = (text, id) => ({
 ### Reducers
 
 ```js
-// todos.js
+// reducers/todos.js
 export const todos = (state = [], action) => {
  switch(action.type) {
   case 'ADD_TODO':
@@ -60,7 +60,7 @@ export const todos = (state = [], action) => {
 ```
 
 ```js
-// index.js
+// reducers/index.js
 
 import { combineReducers } from 'redux'
 import { todos } from './todos'
