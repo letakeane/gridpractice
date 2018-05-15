@@ -86,3 +86,22 @@ ReactDOM.render(
   <App />
  </Provider>, document.getElementById('root')
 ```
+
+### IdeaForm
+
+```js
+import { connect } from 'react-redux'
+import { addTodo } from '../actions'
+
+// this should be added to the bottom of the above-given IdeaForm
+
+const mapStateToProps = (state) => ({
+ todos: state.todos
+})
+
+const mapDispatchToProps = (dispatch) => ({
+ handleSubmit: (text, id) => dispatch(addTodo(text, id))
+ 
+ export default connect(mapStateToProps, mapDispatchToProps)(IdeaForm)
+})
+```
