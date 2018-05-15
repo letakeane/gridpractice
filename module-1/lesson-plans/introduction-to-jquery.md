@@ -6,6 +6,8 @@ Whiteboard
 - Vocab
 
 ### Learning Goals
+What is jQuery?
+How to use jQuery to Interact with the DOM
 
 #### What is jQuery?
 - jQuery is a js library that makes DOM interaction easier.
@@ -18,8 +20,8 @@ This lesson has a lot of in class work. Explain that not all of this will be don
 
 Whiteboard
 
-`document.querySelector('h1').innerText = 'I am a dinosaur!';`
-`$('h1').text('I am a dinosaur!')`
+- `document.querySelector('h1').innerText = 'I am a dinosaur!';`
+- `$('h1').text('I am a dinosaur!')`
 
 - go over jQuery syntax $(selector)
 - talk about jQuery object vs DOM element
@@ -27,16 +29,19 @@ Whiteboard
     - jQuery creates a wrapper for the DOM element(s) similar to document.querySelectorAll
 - Mention that jQuery objects stored in variables should start with a `$`.
 
-- Selecting elements in the DOM using jQuery
---- review selectors they already know (tag, #id, .class)
+##### Selecting elements in the DOM using jQuery
+- review selectors they already know (tag, .class, #id)
 
-- Respond to user events
-- Modifying CSS classes
+##### Respond to user events
+- have students update example to use other events
+
+##### Modifying CSS classes
+
+
+0:30
 - Getting values from user input
   - Understand parseInt
 
-0:30
-1:00
 
 Only do secret passcode in class work if you are running fast
 
@@ -63,6 +68,8 @@ What is jQuery?
 What does jQuery return? 
 - A jQuery object, a collection of one or more elements which match the selector (if matches were found). This collection is wrapped in the jQuery object which has a bunch of useful methods for interacting with the DOM.
 good resource on the jquery object http://learn.jquery.com/using-jquery-core/jquery-object/
+
+1:00
 
 ## Traversing The Dom
 Whiteboard HTML (use for Selectors and Traversal sections)
