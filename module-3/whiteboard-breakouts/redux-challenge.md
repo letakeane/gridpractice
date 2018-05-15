@@ -1,6 +1,6 @@
 # Redux Whiteboard Challenge
 
-### Turn this component into a container (connect it to the store)
+## Instructions: Turn this component into a container (connect it to the store)
 
 ```js
 class IdeaForm extends Component {
@@ -30,4 +30,59 @@ class IdeaForm extends Component {
 
 
 export default IdeaForm
+```
+
+## Students should whiteboard the following files:
+
+### Actions
+
+```js
+// index.js
+export const addTodo = (text, id) => ({
+ type: 'ADD_TODO',
+ text,
+ id
+})
+```
+
+### Reducers
+
+```js
+// todos.js
+export const todos = (state = [], action) => {
+ switch(action.type) {
+  case 'ADD_TODO':
+   return [...state, {text: action.text, id: action.id}]
+  default:
+   return state
+ }
+}
+```
+
+```js
+// index.js
+
+import { combineReducers } from 'redux'
+import { todos } from './todos'
+
+const rootReducer = combineReducers({
+ todos
+})
+
+export default rootReducer
+```
+
+### index.js
+
+```js
+import { Provider } from 'react-redux'
+import { createStore } from 'redux'
+import rootReducer from './reducers'
+
+const store = createStore(rootReducer, devTools)
+
+ReactDOM.render(
+ <Provider store={store}>
+  <App />
+ </Provider>, document.getElementById('root)
 ```
