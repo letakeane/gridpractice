@@ -282,8 +282,9 @@ Given these two classes, create an abstract parent class of `Transport`, and ref
 class Bike {
   constructor(wheels, moving = false) {
     this.wheels = wheels;
+    this.moving = moving;
     this.speed = 0;
-    this.gear = 1
+    this.gear = 1;
   }
 
   applyBreaks() {
@@ -302,9 +303,9 @@ class Bike {
 class Skateboard {
   constructor(wheels, longboard, moving = false) {
     this.wheels = wheels;
-    this.longboard = longboard
     this.moving = moving
     this.speed = 0
+    this.longboard = longboard
   }
 
   bail() {
