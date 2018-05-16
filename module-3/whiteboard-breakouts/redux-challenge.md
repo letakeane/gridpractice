@@ -3,7 +3,7 @@
 ## Instructions: Turn this component into a container (connect it to the store)
 
 ```js
-class IdeaForm extends Component {
+class TodoForm extends Component {
  constructor() {
   super()
   this.state = { text: '' }
@@ -29,7 +29,7 @@ class IdeaForm extends Component {
 }
 
 
-export default IdeaForm
+export default TodoForm
 ```
 
 ## Students should whiteboard the following files:
