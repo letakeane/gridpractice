@@ -269,3 +269,147 @@ EXERCISE 2: What cloud types didn't we see while cloud spotting? Return an array
 ```
 // [ 'cumulonimbus', 'stratus' ]
 ```
+
+
+# Mid Mod (Alternate 2)
+
+## OOP & Inheritance
+
+Given these two classes, create an abstract parent class of `Transport`, and refactor `Bike` and `Skateboard` so they inherit from it.
+
+```js
+// Bike.js
+class Bike {
+  constructor(wheels, moving = false) {
+    this.wheels = wheels;
+    this.speed = 0;
+    this.gear = 1
+  }
+
+  applyBreaks() {
+    this.speed = 0
+    this.moving = false
+  }
+
+  changeGear(gearNumber) {
+    this.gearNumber = gearNumber
+  }  
+}
+```
+
+```js
+// ./Skateboard.js
+class Skateboard {
+  constructor(wheels, longboard, moving = false) {
+    this.wheels = wheels;
+    this.longboard = longboard
+    this.moving = moving
+    this.speed = 0
+  }
+
+  bail() {
+    return this.speed  < 10 && this.moving ? 'safely bailed'
+                                           : "Too fast! Can't bail."
+  }
+
+  stop() {
+    return "you can't stop you're on a skateboard"
+  }
+}
+```
+
+## Scope
+
+```js
+let greeting = 'howdy';
+
+const greetingGenerator = () => {
+  let greeting = 'hi';
+
+  if (greeting === 'hi') {
+    let greeting = 'hello';
+  }
+
+  console.log('A', greeting);      // A - what logs here?
+
+  const newGreeting = ()  => {
+    greeting = 'welcome';
+
+    console.log('B', greeting);    // B - what logs here?
+  }
+
+  newGreeting()
+
+  console.log('C', greeting);      // C - what logs here?
+}
+
+greetingGenerator();
+
+console.log('D', greeting);        // D -
+
+```
+In what order do these log? What do they log?
+
+## Objects and Arrays
+
+```js
+
+const piesInFridge = [
+  { pie: 'pecan',
+    type: 'sweet'
+  },
+  {
+    pie: 'pumpkin',
+    type: 'sweet'
+  },
+  {
+    pie: 'chicken pot',
+    type: 'savory'
+  },
+  {
+    pie: 'shepherds',
+    type: 'savory'
+  }
+];
+
+const pieIndex = {
+  fruit: {
+    pies: [ 'blueberry', 'apple', 'cherry' ],
+    score: 30
+  },
+  sweet: {
+    pies: ['pumpkin', 'pecan', 'boston creme'],
+    score: 50
+  },
+  savory: {
+    pies: ['pizza', 'chicken pot', 'shepherds'],
+    score: 50
+  },
+  custard: {
+    pies: ['keylime', 'egg', 'lemon meringue'],
+    score: 40
+  },
+  math: {
+    pies: ['pi'],
+    score: 3.14
+  }
+};
+
+```
+
+EXERCISE 1: Based off the pies in the fridge return their accumulated pie score
+
+EXERCISE 2: Change the array of pies in the `pieIndex` into an array of Objects instead of an array of strings.
+
+```js
+ 	{
+		fruit: {
+						 pies: [ { pie: 'blueberry', type: 'fruit' },
+										 { pie: 'apple', type: 'fruit' },    
+									 	 { pie: 'cherry', type: 'fruit' }
+									 ],
+						 score: 30
+					 },
+	 	...
+	}
+```
