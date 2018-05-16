@@ -402,15 +402,15 @@ EXERCISE 1: Based off the pies in the fridge return their accumulated pie score
 EXERCISE 2: Change the array of pies in the `pieIndex` into an array of Objects instead of an array of strings.
 
 ```js
-
- 	{ fruit: {
- 		       pies: [
- 		  		       { pie: 'blueberry', type: 'fruit' },
-				       { pie: 'apple', type: 'fruit' },    
-				       { pie: 'cherry', type: 'fruit' }
-				     ],
-		       score: 30
-			 }
-			 ...
-	 }
+{ 
+  fruit: {
+           pies: [
+ 		  { pie: 'blueberry', type: 'fruit' },
+		  { pie: 'apple', type: 'fruit' },    
+		  { pie: 'cherry', type: 'fruit' }
+		 ],
+           score: 30
+         }
+   ...
+}
 ```
