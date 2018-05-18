@@ -11,6 +11,8 @@ class App extends Component {
 
   addIdea = (idea) => {
     const ideas = [...this.state.ideas, idea]
+    // if we add the id here istead of in the form ...
+    // const ideas = [...this.state.ideas, {...idea, id: Date.now()}]
     this.setState({ ideas })
   }
 

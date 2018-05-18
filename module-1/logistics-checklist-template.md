@@ -8,10 +8,13 @@
 * [ ] Add static comp spreadsheets to here: https://drive.google.com/drive/folders/0B89FT26_XqWXZWp5UWJjazM0NDA
 * [ ] Change links in each static comp to link to the correct spreadsheet from above
 * [ ] Change most recent node version in computer setup
+* [ ] Check the prework page to make sure all of the links (including external ones) work.
 * [ ] Add your interview slots!
 
 ### Week 1: 
 * [ ] Pick SAB reps
+* [ ] Schedule who is teaching what and when
+* [ ] Schedule time to meet with repeaters
 * [ ] Send instructional survey to students from here: https://drive.google.com/drive/folders/0Bx6JZxtPBe_FaVBJNlFCdTFOOVE
 
 ### Week 2:
@@ -29,8 +32,8 @@
 
 ### Week 4:
 * [ ] Push up idea box eval templates for each group here: https://github.com/turingschool/front-end-submissions-public
-* [ ] Put together 2do box groups and add to frontend today page
-	* [ ] 6 repos go here for 2dobox repos:
+* [ ] Put together 2do box groups and add to frontend today page 
+  * [ ] 6 repos go here for 2dobox repos:
   * Repo 1
   * Repo 2
   * Repo 3
@@ -49,8 +52,11 @@
 * [ ] Push up folders for each student at https://github.com/turingschool/portfolios
 * [ ] Push up pentathlon templates for each student here: https://github.com/turingschool/student-assessments 
 
-### Week 6: 
-* [ ] Add scores here: https://github.com/turingschool/student-assessments 
-* [ ] Grade quizlettes
+### Week 6:
+* [ ] Push up eval schedule for dom challenge to frontend-curriculum [today](https://github.com/turingschool/front-end-curriculum/blob/gh-pages/today/index.html)
+* [ ] Push up eval schedule for creature challenge to frontend-curriculum [today](https://github.com/turingschool/front-end-curriculum/blob/gh-pages/today/index.html)
+* [ ] Push up eval schedule for final static comp to frontend-curriculum [today](https://github.com/turingschool/front-end-curriculum/blob/gh-pages/today/index.html)
+* [ ] Add scores here: https://github.com/turingschool/student-assessments
+* [ ] Add reasons (facts) for why folks are repeating [here](https://drive.google.com/drive/folders/1BTA5FGXMwCJbFxJawYyDsmQVW5XMzf0P)
 * [ ] Merge pull requests from https://github.com/turingschool/portfolios
 

@@ -4,22 +4,27 @@
   * issue should be closed after cohort moves on to mod 4
 
 ### Before week 1: 
-* [ ] Add checklist
+* [ ] Make Headcount groups
 
 ### Week 1: 
-* [ ] Add checklist
+* [ ] Make Swapibox groups
+* [ ] Send out weekly survey
 
 ### Week 2:
-* [ ] Add checklist
+* [ ] Make Movietracker groups
+* [ ] Send out weekly survey
 
 ### Week 3:
-* [ ] Add checklist
+* [ ] Assign clients for personal project
+* [ ] Send out weekly survey
 
 ### Week 4:
 * [ ] Add checklist
+* [ ] Send out weekly survey
 
 ### Week 5:
 * [ ] Add checklist
+* [ ] Send out weekly survey
 
 ### Week 6: 
 * [ ] Add checklist
