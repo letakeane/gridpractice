@@ -9,7 +9,7 @@ of the following letters:
 * L instructs the robot to turn left
 * R instructs the robot to turn right
 
-After running all of the movement commands, you want to know if the robot returns to it's original, starting location.
+The robot cannot go backwards - poor robot. After running all of the movement commands, you want to know if the robot returns to it's original, starting location.
 
 For instance, the command `GRGRGR` would make the robot return to its original starting location.
 
@@ -27,6 +27,14 @@ returnsToOrigin('GRGRLL') // => false
 
 ```js
 returnsToOrigin('') // => true
+```
+
+```js
+returnsToOrigin('GRGGRGGRGRGLG') // => true
+```
+
+```js
+returnsToOrigin('GRGRGGLGRGRGRG') // => false
 ```
 
 ## Answer
