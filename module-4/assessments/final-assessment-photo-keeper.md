@@ -16,7 +16,7 @@ You'll be making an application so that you can assemble a list of some of your 
 
 ## Feature Requirements
 
-* The user should be able to type an photo's title and a link to the photo in two separate input fields, click a button, and submit an photo to the list (the photo link and title should be saved to the database, be displayed on the page, and should persist if you refresh the page)
+* The user should be able to type a photo's title and a link to the photo in two separate input fields, click a button, and submit an photo to the list (the photo link and title should be saved to the database, be displayed on the page, and should persist if you refresh the page)
   * A link to a photo should be a URL to an image, which you can find using a google image search, such as [this photo](https://i.imgur.com/MA2D0.jpg)
 * The input fields should clear after a photo is successfully submitted
 * In the photo list, the photo's title and the image should be displayed
@@ -25,7 +25,7 @@ You'll be making an application so that you can assemble a list of some of your 
 
 ## Wireframe
 
-Here is generally what the application should look like. Keep it simple.
+Here is generally what the application could look like. Keep it simple.
 
 ![Wireframe](https://i.imgur.com/VIrFUrm.png)
 
