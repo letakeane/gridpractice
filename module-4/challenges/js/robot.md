@@ -18,7 +18,7 @@ For instance, the command `GRGRGR` would make the robot return to its original s
 Create a function called `returnsToOrigin` that takes the movement command string and outputs `true` or `false` depending on the commands:
 
 ```js
-returnsToOrigin('GRGRGR') // => true
+returnsToOrigin('GRGRGRG') // => true
 ```
 
 ```js
