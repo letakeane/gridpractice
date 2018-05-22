@@ -87,3 +87,6 @@ Convention has been to give the groups their scores during the eval, with applic
 * 1443dd5d9e0f4a45
 * a43d94e6bcd87693
 * c9c8a0ccbbe3d1c4
+* 2e6ca15b7dc4d611
+* 81347f06b321e144
+* f9460b57fa291959
