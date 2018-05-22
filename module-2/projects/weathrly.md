@@ -75,7 +75,7 @@ The check-ins for Weathrly are informal and function more like pairing sessions 
 
 Convention has been to give the groups their scores during the eval, with applicable areas "PENDING" until the requested refactors are submitted.
 
-### WEATHRLY WEATHER UNDERGROUND KEYS
+### WEATHRLY KEY LIBRARY
 * 88c6470094b23a13
 * babdeffdfd483352
 * 068a2ceade60cbb9
