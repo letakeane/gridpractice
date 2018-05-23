@@ -11,7 +11,7 @@ of the following letters:
 
 The robot cannot go backwards - poor robot. After running all of the movement commands, you want to know if the robot returns to it's original, starting location.
 
-For instance, the command `GRGRGR` would make the robot return to its original starting location.
+For instance, the command `GRGRGRG` would make the robot return to its original starting location.
 
 ### Implementation
 
@@ -37,4 +37,39 @@ returnsToOrigin('GRGGRGGRGRGLG') // => true
 returnsToOrigin('GRGRGGLGRGRGRG') // => false
 ```
 
-## Answer
+## An Answer
+
+```js
+const returnsToOrigin = path => {
+  // Set initial state of robot coordinates and direction
+  let x = 0;
+  let y = 0;
+  let direction = 0; // going up
+
+  // Move robot based on each instruction
+  for (let command of path) {
+    switch (command) {
+     case 'G':
+      if (direction % 4 === 0) {
+        y++
+      } else if (direction % 4 === 1) {
+        x++
+      } else if (direction % 4 === 2) {
+        y--
+      } else if (direction % 4 === 3) {
+        x--
+      }
+      break;
+    case 'L':
+      direction--;
+      break;
+    case 'R':
+      direction++;
+      break;  
+    }
+  }
+
+  // Test if the robot has returned to initial coordinates
+  return x === 0 && y === 0 ? true : false;
+}
+```

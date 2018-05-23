@@ -22,6 +22,7 @@ You'll be making a single-page application so that you can assemble a list of so
 * In the photo list, the photo's title and the image should be displayed
 * Each photo should have a delete button to remove the photo from the page
 * If you click the delete button, then the photo should be removed from the page and deleted from the database (if you refresh, then the photo should be gone from the list)
+* You should not have to refresh the page at any point to see changes in data displayed
 
 ## Wireframe
 
