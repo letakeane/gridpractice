@@ -74,3 +74,22 @@ The check-ins for Weathrly are informal and function more like pairing sessions 
 * Point out strengths of the code - end on a positive note
 
 Convention has been to give the groups their scores during the eval, with applicable areas "PENDING" until the requested refactors are submitted.
+
+### WEATHRLY KEY LIBRARY
+* 88c6470094b23a13
+* babdeffdfd483352
+* 068a2ceade60cbb9
+* f18d3686ca97af45
+* d85b8701d1756fa1
+* 1682ab773bd1bd38
+* 9b9ce697dc74009c
+* 881631f063e09bd3
+* 1443dd5d9e0f4a45
+* a43d94e6bcd87693
+* c9c8a0ccbbe3d1c4
+* 2e6ca15b7dc4d611
+* 81347f06b321e144
+* f9460b57fa291959
+* c205c4179aab567c
+* b2e64fbf73098622
+* 1d9553550e3d5679
