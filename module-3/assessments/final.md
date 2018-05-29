@@ -18,10 +18,10 @@
 
 ## Important links
 
-[Fire and Ice](https://github.com/turingschool-examples/fire-ice)
-[Fire and Ice API](https://github.com/turingschool-examples/ice_fire_api)
-[Pokedex](https://github.com/turingschool-examples/pokedex)
-[Pokedex API](https://github.com/turingschool-examples/poke-api)
+* [Fire and Ice](https://github.com/turingschool-examples/fire-ice)
+* [Fire and Ice API](https://github.com/turingschool-examples/ice_fire_api)
+* [Pokedex](https://github.com/turingschool-examples/pokedex)
+* [Pokedex API](https://github.com/turingschool-examples/poke-api)
 
 ## Common student pitfalls
 
