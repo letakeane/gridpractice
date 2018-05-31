@@ -23,6 +23,12 @@
 * [Pokedex](https://github.com/turingschool-examples/pokedex)
 * [Pokedex API](https://github.com/turingschool-examples/poke-api)
 
+## Keys
+
+These are possible solutions for both assessments
+* [Fire and Ice Key](https://github.com/turingschool/fire-and-ice-key)
+* [Pokedex Key](https://github.com/turingschool/pokedex-key)
+
 ## Common student pitfalls
 
 ## ToDo's
