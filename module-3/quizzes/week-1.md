@@ -33,7 +33,7 @@ involved?
 <br />
 <br />
 
-##React
+## React
 
 Consider the following React component for questions 5-8:
 
@@ -167,4 +167,7 @@ What is returned by `arrayMultiplier(3)`?
 
 <br />
 
-17) 
+17) What is a *controlled form component*?
+
+<br />
+
