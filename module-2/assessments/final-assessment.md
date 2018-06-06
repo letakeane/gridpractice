@@ -1,94 +1,6 @@
 # Mod 2 Final Evaluation (v1)
 
 ## Question 1
-
-What are the differences between `var`, `let`, and `const`?
-
-## Question 2
-
-Consider the following code:
-
-```
-let name = 'Beetlejuice';
-
-function sayName() {
-  let name = 'Voldemort';
-
-  if (name === 'Voldemort') {
-    name = 'Bellatrix Lestrange';
-
-    if (name.length > 0) {
-      let name = 'Jerry Gergich';
-    }
-
-    console.log(name); // -----------> log 1
-  }
-
-  console.log(name); // -------------> log 2
-}
-
-sayName();
-
-console.log(name); // ---------------> log 3
-
-```
-
-Explain what is being logged and why.
-
-## Question 3
-
-```
-const iceCreamCone = {};
-const keyValuePairs = [
-  ['cone', 'waffle'],
-  ['iceCream', 'pistachio'],
-  ['topping', 'graham cracker crumbs']
-];
-
-// Loop through the keyValuePairs array to create key value pairs in the pie object
-
-console.log(iceCreamCone);
-// {
-//   cone: 'waffle',
-//   iceCream: 'pistachio',
-//   topping: 'graham cracker crumbs'
-// }
-```
-
-## Question 4
-
-How can we make the console.log at the end work?
-
-```
-function makeObject () {
-  const obj = {};
-
-  function makeNumber () {
-    let number = 5;
-
-    return number;
-  }
-
-  makeNumber();
-
-  obj.number = number;
-
-  return obj;
-}
-
-makeObject();
-
-console.log(obj.number) // 5
-```
-
-## Question 5
-
-`function() {}` vs. `() => {}`
-
-* How is `this` handled in each of these?
-
-## Question 6
-
 Write a function `sortBy( prop )` that
 a) takes in a property, and
 b) uses the `animals` object below to return a new object sorted by that property.
@@ -139,7 +51,68 @@ const animals = [
 }
 ```
 
-## Question 7
+## Question 2
+
+What are the differences between `var`, `let`, and `const`?
+
+## Question 3
+
+```
+const iceCreamCone = {};
+const keyValuePairs = [
+  ['cone', 'waffle'],
+  ['iceCream', 'pistachio'],
+  ['topping', 'graham cracker crumbs']
+];
+
+// Loop through the keyValuePairs array to create key value pairs in the pie object
+
+console.log(iceCreamCone);
+// {
+//   cone: 'waffle',
+//   iceCream: 'pistachio',
+//   topping: 'graham cracker crumbs'
+// }
+```
+
+## Question 4
+
+`function() {}` vs. `() => {}`
+
+* How is `this` handled in each of these?
+
+## Question 5
+
+Consider the following code:
+
+```
+let name = 'Voldemort';
+
+function sayName() {
+  let name = 'Beetlejuice';
+
+  if (name === 'Beetlejuice') {
+    name = 'Sauron';
+
+    if (name.length > 0) {
+      let name = 'Nathaniel \'Danger\' Foster';
+    }
+
+    console.log(name); // -----------> log 1
+  }
+
+  console.log(name); // -------------> log 2
+}
+
+sayName();
+
+console.log(name); // ---------------> log 3
+
+```
+
+Explain what is being logged and why.
+
+## Question 6
 
 Use `Object.assign` to create a NEW object that combines the 3 objects below without mutating any of them:
 
@@ -151,7 +124,7 @@ const title = { title: 'Computer Programmer' }
 // {name: 'Ada Lovelace', IQ: 160, title: 'Computer Programmer'}
 ```
 
-## Question 8
+## Question 7
 
 How can we get the following array from the following object?
 
@@ -161,12 +134,12 @@ let obj = {name: 'ursula', type: 'villain', power: 87};
 // ['name', 'type', 'power']
 ```
 
-## Question 9
+## Question 8
 
 Talk about React!
 
 * When should a component be stateful?
-* How can you pass information into a component?
+* How can you pass information from a parent component into a child component? How does that child component access the information?
 * What does `setState()` do?
 
 
@@ -175,91 +148,6 @@ Talk about React!
 # Mod 2 Final Assessment (v2)
 
 ## Question 1
-
-What are the differences between `var`, `let`, and `const`?
-
-## Question 2
-
-Consider the following code:
-
-```
-var fruit = 'apple';
-
-function eatFruit() {
-
-  if (fruit !== 'kiwi') {
-    var fruit = 'mango';
-
-    if (fruit) {
-      const fruit = 'strawberry';
-    }
-
-    console.log(fruit);         // What logs here?
-  }
-
-  console.log(fruit);           // What logs here?
-}
-
-eatFruit()
-
-console.log(fruit);             // What logs here?
-```
-
-Explain what is logged and why.
-
-## Question 3
-
-```
-const pizza = {};
-const keyValuePairs = [
-  ['crust', 'thin'],
-  ['sauce', 'red'],
-  ['topping', 'pepperoni']
-];
-
-// Loop through the keyValuePairs array to create key value pairs in the pie object
-
-console.log(pizza);
-// {
-//   crust: 'thin',
-//   sauce: 'red',
-//   topping: 'pepperoni'
-// }
-```
-
-## Question 4
-
-How can we make the console.log at the end work?
-
-```
-function makeObject () {
-  const obj = {};
-
-  function makeString () {
-    let string = 'Hello';
-
-    return string;
-  }
-
-  makeString();
-
-  obj.string = string;
-
-  return obj;
-}
-
-makeObject();
-
-console.log(obj.string) // 'Hello'
-```
-
-## Question 5
-
-`function() {}` vs. `() => {}`
-
-* How is `this` handled in each of these?
-
-## Question 6
 
 Consider the following array:
 
@@ -308,7 +196,66 @@ Create an object whose properties are each of the skills, and whose values are a
   // }
 ```
 
-## Question 7
+## Question 2
+
+What are the differences between `var`, `let`, and `const`?
+
+## Question 3
+
+Consider the following code:
+
+```
+var fruit = 'apple';
+
+function eatFruit() {
+
+  if (fruit !== 'kiwi') {
+    var fruit = 'mango';
+
+    if (fruit) {
+      const fruit = 'strawberry';
+    }
+
+    console.log(fruit);         // What logs here?
+  }
+
+  console.log(fruit);           // What logs here?
+}
+
+eatFruit()
+
+console.log(fruit);             // What logs here?
+```
+
+Explain what is logged and why.
+
+## Question 4
+
+```
+const pizza = {};
+const keyValuePairs = [
+  ['crust', 'thin'],
+  ['sauce', 'red'],
+  ['topping', 'pepperoni']
+];
+
+// Loop through the keyValuePairs array to create key value pairs in the pie object
+
+console.log(pizza);
+// {
+//   crust: 'thin',
+//   sauce: 'red',
+//   topping: 'pepperoni'
+// }
+```
+
+## Question 5
+
+`function() {}` vs. `() => {}`
+
+* How is `this` handled in each of these?
+
+## Question 6
 
 Use `Object.assign` to create a NEW object that combines the 3 objects below without mutating any of them:
 
@@ -320,7 +267,7 @@ const title = { title: 'Computer Programmer' }
 // {name: 'Ada Lovelace', IQ: 160, title: 'Computer Programmer'}
 ```
 
-## Question 8
+## Question 7
 
 How can we get the following array from the following object?
 
@@ -330,12 +277,12 @@ let obj = {name: 'ursula', type: 'villain', power: 87};
 // ['name', 'type', 'power']
 ```
 
-## Question 9
+## Question 8
 
 Talk about React!
 
 * When should a component be stateful?
-* How can you pass information into a component?
+* How can you pass information from a parent component into a child component? How does that child component access the information?
 * What does `setState()` do?
 
 
@@ -344,94 +291,6 @@ Talk about React!
 # Mod 2 Final Assessment (v3)
 
 ## Question 1
-
-What are the differences between `var`, `let`, and `const`?
-
-## Question 2
-
-Consider the following code:
-
-```
-var dog = 'Spot';
-
-function petDog() {
-  console.log(`You pet ${dog}`);        // What logs here?
-
-  if (dog === 'Spot') {
-    let dog = 'Fluffy';
-  }
-
-  function rollOver() {
-    dog = 'Biscuit';
-
-    console.log(`Rollover, ${dog}!`); // What logs here?
-  }
-
-  rollOver();
-
-  console.log(`Good dog, ${dog}!`); // What logs here?
-}
-
-petDog();
-
-console.log(dog);                      // What logs here?
-```
-
-Explain what is logged and why.
-
-## Question 3
-
-```
-const pie = {};
-const keyValuePairs = [
-  ['crust', 'graham cracker'],
-  ['filling', 'chocolate mousse'],
-  ['topping', 'whipped cream']
-];
-
-// Loop through the keyValuePairs array to create key value pairs in the pie object
-
-console.log(pie);
-// {
-//   crust: 'graham cracker',
-//   filling: 'chocolate mousse',
-//   topping: 'whipped cream'
-// }
-```
-
-## Question 4
-
-How can we make the console.log at the end work?
-
-```
-function makeObject () {
-  const obj = {};
-
-  function makeBoolean () {
-    let boolean = false;
-
-    return boolean;
-  }
-
-  makeBoolean();
-
-  obj.boolean = boolean;
-
-  return obj;
-}
-
-makeObject();
-
-console.log(obj.boolean) // false
-```
-
-## Question 5
-
-`function() {}` vs. `() => {}`
-
-* How is `this` handled in each of these?
-
-## Question 6
 
 Consider the following array:
 
@@ -512,7 +371,69 @@ Create a function `atLeast` that takes in two parameters: a string matching a pr
 ]
 ```
 
-## Question 7
+## Question 2
+
+What are the differences between `var`, `let`, and `const`?
+
+## Question 3
+
+Consider the following code:
+
+```
+var dog = 'Spot';
+
+function petDog() {
+  console.log(`You pet ${dog}`);        // What logs here?
+
+  if (dog === 'Spot') {
+    let dog = 'Fluffy';
+  }
+
+  function rollOver() {
+    dog = 'Biscuit';
+
+    console.log(`Rollover, ${dog}!`); // What logs here?
+  }
+
+  rollOver();
+
+  console.log(`Good dog, ${dog}!`); // What logs here?
+}
+
+petDog();
+
+console.log(dog);                      // What logs here?
+```
+
+Explain what is logged and why.
+
+## Question 4
+
+```
+const pie = {};
+const keyValuePairs = [
+  ['crust', 'graham cracker'],
+  ['filling', 'chocolate mousse'],
+  ['topping', 'whipped cream']
+];
+
+// Loop through the keyValuePairs array to create key value pairs in the pie object
+
+console.log(pie);
+// {
+//   crust: 'graham cracker',
+//   filling: 'chocolate mousse',
+//   topping: 'whipped cream'
+// }
+```
+
+## Question 5
+
+`function() {}` vs. `() => {}`
+
+* How is `this` handled in each of these?
+
+## Question 6
 
 Use `Object.assign` to create a NEW object that combines the 3 objects below without mutating any of them:
 
@@ -524,7 +445,7 @@ const title = { title: 'Computer Programmer' }
 // {name: 'Ada Lovelace', IQ: 160, title: 'Computer Programmer'}
 ```
 
-## Question 8
+## Question 7
 How can we get the following array from the following object?
 
 ```
@@ -533,10 +454,125 @@ let obj = {name: 'ursula', type: 'villain', power: 87};
 // ['name', 'type', 'power']
 ```
 
-## Question 9
+## Question 8
 
 Talk about React!
 
 * When should a component be stateful?
-* How can you pass information into a component?
+* How can you pass information from a parent component into a child component? How does that child component access the information?
+* What does `setState()` do?
+
+===========================================
+
+# Mod 2 Final Assessment (v4)
+
+## Question 1
+
+Consider the following array:
+
+```
+const yearbook = [
+  { club: 'Drama', members : ['Louisa', 'Pam', 'Nathaniel' ] },
+  { club: 'Band', members: ['Leta', 'Robbie', 'Jhun', 'Will'] },
+  { club: 'Chess', members: ['David', 'Pam', 'Brittany', 'Robbie'] },
+  { club: 'Newspaper', members: ['Pam', 'David', 'Brittany', 'Christie', 'Leta'] },
+  { club: 'Astronomy', members: ['Nathaniel', 'Leta'] },
+  { club: 'FBLA', members: ['Christie', 'David', 'Robbie'] },
+  { club: 'Art', members: ['Jhun', 'Louisa'] }
+]
+```
+
+Create an object whose keys are the names of people, and whose values are arrays that include strings of the clubs that person is a part of.
+
+
+## Question 2
+
+What are the differences between `var`, `let`, and `const`?
+
+## Question 3
+
+Consider the following code:
+
+```
+var dog = 'Boris';
+
+function brushDog() {
+
+  if (dog === 'Boris') {
+    let dog = 'Natasha';
+  }
+
+  console.log(`You brushed ${dog}`);            // What logs here?
+
+  function trimNails() {
+    dog = 'Sergei';
+
+    console.log(`You trimmed ${dog}'s nails'`); // What logs here?
+  }
+
+  trimNails();
+
+  console.log(`Good dog, ${dog}!`);            // What logs here?
+}
+
+brushDog();
+
+console.log(dog);                              // What logs here?
+```
+
+Explain what is logged and why.
+
+## Question 4
+
+```
+const cupcake = {};
+const keyValuePairs = [
+  ['cake', 'yellow'],
+  ['filling', 'strawberry jam'],
+  ['topping', 'whipped cream']
+];
+
+// Loop through the keyValuePairs array to create key value pairs in the pie object
+
+console.log(pie);
+// {
+//   cake: 'yellow',
+//   filling: 'strawberry jam',
+//   topping: 'whipped cream'
+// }
+```
+
+## Question 5
+
+`function() {}` vs. `() => {}`
+
+* How is `this` handled in each of these?
+
+## Question 6
+
+Use `Object.assign` to create a NEW object that combines the 3 objects below without mutating any of them:
+
+```
+const scientist = { name: 'Ada Lovelace' }
+const IQ = { IQ: 160 }
+const title = { title: 'Computer Programmer' }
+
+// {name: 'Ada Lovelace', IQ: 160, title: 'Computer Programmer'}
+```
+
+## Question 7
+How can we get the following array from the following object?
+
+```
+let obj = {name: 'ursula', type: 'villain', power: 87};
+
+// ['name', 'type', 'power']
+```
+
+## Question 8
+
+Talk about React!
+
+* When should a component be stateful?
+* How can you pass information from a parent component into a child component? How does that child component access the information?
 * What does `setState()` do?
